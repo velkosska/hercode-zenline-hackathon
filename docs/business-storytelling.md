@@ -83,6 +83,17 @@ If the answer is no → we label it low confidence and say **monitor**, not **bu
 
 That is how we turn **noise into a decision**.
 
+### Tavily scope (what we add live vs what we keep offline)
+
+| Zenline bucket | Hackathon source | Tavily role |
+|---|---|---|
+| Search trends | Google Trends CSVs | No — Tavily has no numeric trend index |
+| Marketplace / e-com | Competitor + Galaxus listings | Yes — `site:` and domain-restricted search |
+| Social / press | Agent CSV + Tavily news hits | Partial — news/web proxy, not hashtag APIs |
+| Retailer behavior | Not in scope | No — POS/CRM stays in production Zenline |
+
+**Scout Bloom:** broad Tavily discovery queries (“emerging outdoor trends Switzerland 2026”) plus Claude synthesis surface trends **not in our seed keyword list** — e.g. Packrafting as a dark horse before it hits Google Trends seeds. Output lives in `emerging_trends` on the Scout tab.
+
 ---
 
 ## Why Switzerland / DACH Matters in the Story
@@ -274,6 +285,24 @@ Use this script with **ElevenLabs** or live presentation:
 > Here are our top outdoor opportunities for a Swiss retailer — each with evidence, confidence, and a concrete next step.  
 >  
 > Change the category, rerun Scout, and it works again. External signals today; sales and margin data tomorrow — exactly how Zenline works for enterprise retail.
+
+---
+
+## Marija's Brainstorm — Specific SKUs + Market Capture
+
+From the team brainstorm: recommendations must be **specific**, not just category names.
+
+**Example (via ferrata booming):** stock a starter kit — **helmet, via ferrata set (lanyard + shock absorber + carabiners), gloves** — not just "climbing category."
+
+**Market TAM:** show how much of the Swiss outdoor market the retailer could capture. Use the dashboard sidebar:
+
+- Select **CH**, **DACH**, or **US**
+- Each opportunity shows **Category TAM** and **Addressable revenue (CHF M)**
+- Higher capture when coverage is thin (untapped demand)
+
+**Demo line:**
+
+> "Klettersteig search velocity is +346%. Range Architect says: bundle Petzl/Mammut sets, helmets, gloves — CHF 11M category TAM in Switzerland, ~CHF 0.4M addressable if we own the starter bay."
 
 ---
 

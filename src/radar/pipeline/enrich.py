@@ -9,7 +9,9 @@ import pandas as pd
 import yaml
 from dotenv import load_dotenv
 
+from src.radar.insight.bloom_detector import find_bloom_candidates, news_and_marketplace_signals
 from src.radar.insight.corroborate import assess_cluster, group_signals_by_keyword
+from src.radar.insight.market_capture import enrich_recommendation_commerce
 from src.radar.insight.overlap_guard import cluster_signals, merge_recommendation_themes
 from src.radar.models.signal import SignalRow
 from src.radar.tools.competitor import (
@@ -42,9 +44,21 @@ def load_signals_csv(path: Path) -> list[SignalRow]:
     return rows
 
 
+def _append_signals(
+    enriched: list[SignalRow],
+    seen_urls: set[str],
+    new_rows: list[SignalRow],
+) -> None:
+    for row in new_rows:
+        if row.url and row.url not in seen_urls:
+            enriched.append(row)
+            seen_urls.add(row.url)
+
+
 def enrich_signals(base_signals: list[SignalRow], config: dict) -> list[SignalRow]:
     domains = config.get("competitors", ["transa.ch", "ochsnersport.ch", "decathlon.ch"])
     search_terms = config.get("competitor_search_terms", {})
+    live_keywords = set(config.get("enrich_live_keywords", []))
     enriched = list(base_signals)
     seen_urls = {s.url for s in enriched if s.url}
 
@@ -52,13 +66,13 @@ def enrich_signals(base_signals: list[SignalRow], config: dict) -> list[SignalRo
     for kw in keywords:
         search_kw = search_terms.get(kw, kw)
         for seed in seed_signals_for_keyword(kw):
-            if seed.url and seed.url not in seen_urls:
-                enriched.append(seed)
-                seen_urls.add(seed.url)
+            _append_signals(enriched, seen_urls, [seed])
         for comp in competitor_signals_from_search(search_kw, domains):
-            if comp.url and comp.url not in seen_urls:
-                enriched.append(comp)
-                seen_urls.add(comp.url)
+            _append_signals(enriched, seen_urls, [comp])
+        if kw in live_keywords:
+            marketplace_domains = list(dict.fromkeys(domains + ["galaxus.ch"]))
+            for live in news_and_marketplace_signals(search_kw, domains=marketplace_domains):
+                _append_signals(enriched, seen_urls, [live])
 
     return enriched
 
@@ -74,6 +88,7 @@ def update_recommendations(
     domains = config.get("competitors", [])
     search_terms = config.get("competitor_search_terms", {})
     groups = group_signals_by_keyword(signals)
+    market = config.get("market_focus", "CH")
 
     for rec in data.get("recommendations", []):
         kw = rec.get("keyword", "")
@@ -98,6 +113,7 @@ def update_recommendations(
                     + f" Corroboration score {assessment['corroboration_score']}; "
                     f"source types: {', '.join(assessment.get('source_types', []))}."
                 ).strip()
+        enrich_recommendation_commerce(rec, market=market)
 
     for rec in data.get("agent_synthesis", []):
         kw = rec.get("keyword", "")
@@ -111,10 +127,13 @@ def update_recommendations(
         )[:10]
         if assessment:
             rec["confidence"] = assessment.get("confidence", rec.get("confidence", "medium"))
+        enrich_recommendation_commerce(rec, market=market)
 
     combined = data.get("combined_top", [])
     if combined:
         data["combined_top"] = merge_recommendation_themes(combined)
+        for item in data["combined_top"]:
+            enrich_recommendation_commerce(item, market=market)
 
     clusters = cluster_signals(signals)
     data["clusters"] = clusters
@@ -140,10 +159,18 @@ def run_enrich(skip_process: bool = False) -> Path:
     base_signals = load_signals_csv(base_path)
     enriched = enrich_signals(base_signals, config)
 
+    enriched_data = update_recommendations(rec_path, enriched, config)
+
+    emerging_trends, discovery_rows = find_bloom_candidates(enriched, config, enriched_data)
+    market = config.get("market_focus", "CH")
+    for trend in emerging_trends:
+        enrich_recommendation_commerce(trend, market=market)
+    enriched_data["emerging_trends"] = emerging_trends
+    _append_signals(enriched, {s.url for s in enriched if s.url}, discovery_rows)
+
     final_signals = FINAL_DIR / "signals.csv"
     signals_to_csv(enriched, final_signals)
 
-    enriched_data = update_recommendations(rec_path, enriched, config)
     final_rec = FINAL_DIR / "recommendations.json"
     with open(final_rec, "w", encoding="utf-8") as f:
         json.dump(enriched_data, f, indent=2, ensure_ascii=False)

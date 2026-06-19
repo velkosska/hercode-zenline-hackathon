@@ -14,7 +14,7 @@ make all          # process + enrich → data/final/
 make dashboard    # Scout / Evidence / Overlap Guard / Range Architect
 ```
 
-Optional: copy `.env.example` to `.env` and set `TAVILY_API_KEY` for live competitor enrichment. The demo works offline using the committed `data/final/` snapshot.
+Optional: copy `.env.example` to `.env` and set `TAVILY_API_KEY` (competitor search) and/or `CLAUDE_API_KEY` (future agent runs). The demo works offline using the committed `data/final/` snapshot.
 
 See [`SUBMISSION.md`](SUBMISSION.md) for ranked opportunities, evidence trail, and architecture.
 

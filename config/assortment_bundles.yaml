@@ -1,0 +1,86 @@
+# Specific assortment items per opportunity (Range Architect output)
+
+Trailrunning:
+  opportunity_label: "Trail running shoe wall + summer trail apparel"
+  assortment_items:
+    - category: Trail running shoes
+      examples: "Salomon Speedcross, Hoka Speedgoat, On Cloudventure"
+      priority: core
+    - category: Hydration vest / running pack
+      examples: "Salomon ADV Skin, Ultimate Direction"
+      priority: core
+    - category: Trail running apparel
+      examples: "Lightweight shorts, merino tee, wind shell"
+      priority: core
+    - category: Gaiters and accessories
+      examples: "Low gaiters, trail socks, headlamp"
+      priority: experimental
+
+Klettersteig:
+  opportunity_label: "Via ferrata starter kit — booming in CH Alps"
+  assortment_items:
+    - category: Via ferrata set (Klettersteigset)
+      examples: "Petzl Scorpio, Mammut Skywalker — lanyard, shock absorber, 2 carabiners"
+      priority: core
+    - category: Climbing helmet
+      examples: "Petzl Boreo, Black Diamond Vision"
+      priority: core
+    - category: Harness
+      examples: "Petzl Corax, Edelrid Jay — optional for some routes"
+      priority: experimental
+    - category: Via ferrata gloves
+      examples: "Half-finger grip gloves for cable contact"
+      priority: core
+    - category: Starter bundle merchandising
+      examples: "Helmet + set + gloves kit CHF 199–349 entry price"
+      priority: core
+
+bikepacking:
+  opportunity_label: "Bikepacking starter capsule"
+  assortment_items:
+    - category: Frame, seat, handlebar bags
+      examples: "Apidura, Ortlieb bikepacking line"
+      priority: core
+    - category: Ultralight tent or bivy
+      examples: "MSR Hubba, Big Agnes Fly Creek"
+      priority: core
+    - category: Sleeping system
+      examples: "Quilt or UL bag plus inflatable pad"
+      priority: core
+    - category: Repair kit
+      examples: "Tubeless plug kit, multi-tool, chain lube"
+      priority: experimental
+
+Packrafting:
+  opportunity_label: "First-mover packraft pilot"
+  assortment_items:
+    - category: Packraft
+      examples: "Decathlon ITIWIT, Alpacka entry models"
+      priority: experimental
+    - category: Packraft paddle
+      examples: "ITIWIT 4-piece carbon paddle"
+      priority: experimental
+    - category: Dry bags and PFD
+      examples: "30L dry bag, lightweight PFD"
+      priority: experimental
+
+"Via Ferrata Starter Kits":
+  assortment_items:
+    - category: Via ferrata set
+      examples: "Petzl EASHOOK, Mammut Skywalker Classic"
+      priority: core
+    - category: Helmet
+      examples: "UIAA-certified climbing helmet"
+      priority: core
+    - category: Lanyard and carabiners
+      examples: "Included in set; upsell spare carabiner"
+      priority: core
+
+"Merino / Natural Fiber Base Layers":
+  assortment_items:
+    - category: Merino base layer tops
+      examples: "Icebreaker 200, Smartwool Merino 250"
+      priority: core
+    - category: Merino mid-layers
+      examples: "Lightweight fleece alternative"
+      priority: experimental

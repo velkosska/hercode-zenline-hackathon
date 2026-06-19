@@ -8,9 +8,10 @@
         "Trail Running Footwear",
         "Trail Running in the Alps",
         "Trailrunning",
-        "running"
+        "running",
+        "trail running schuhe"
       ],
-      "signal_count": 13,
+      "signal_count": 40,
       "sources": [
         "Agent Synthesis",
         "Google Trends",
@@ -19,11 +20,16 @@
         "Google Trends (google shopping)",
         "Market Reports",
         "YouTube",
+        "decathlon.ch",
+        "galaxus.ch",
+        "ochsnersport.ch",
         "swisspo",
+        "tavily_news",
         "transa.ch"
       ],
       "source_types": [
         "competitor",
+        "marketplace",
         "search",
         "social",
         "web"
@@ -34,7 +40,11 @@
         "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=running",
         "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=running",
         "https://www.transa.ch/de/b/trailrunning/",
-        "https://swisspo.ch/de/erfolgreicher-winter-und-chancen-im-sommer-sportartikel-branche-beweist-stabilitaet-und-anpassungsfaehigkeit/"
+        "https://swisspo.ch/de/erfolgreicher-winter-und-chancen-im-sommer-sportartikel-branche-beweist-stabilitaet-und-anpassungsfaehigkeit/",
+        "https://www.transa.ch/de/c/schuhe/herren/reiseschuhe-freizeitschuhe/trailrunningschuhe",
+        "https://www.transa.ch/en/c/shoes/travel-shoes-casual-shoes/trail-running-shoes",
+        "https://www.ochsnersport.ch/de-ch/trailrunning",
+        "https://www.ochsnersport.ch/de-ch/c/damen/trailrunning-schuhe-486"
       ],
       "overlap_warning": true,
       "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
@@ -117,18 +127,32 @@
           "url": ""
         },
         {
-          "keyword": "running",
-          "signal_name": "CH competitor / trade signal: running",
+          "keyword": "Trailrunning",
+          "signal_name": "CH competitor / trade signal: Trailrunning",
           "source": "transa.ch",
           "signal_type": "competitor",
           "url": "https://www.transa.ch/de/b/trailrunning/"
         },
         {
-          "keyword": "running",
-          "signal_name": "CH competitor / trade signal: running",
+          "keyword": "Trailrunning",
+          "signal_name": "CH competitor / trade signal: Trailrunning",
           "source": "swisspo",
           "signal_type": "competitor",
           "url": "https://swisspo.ch/de/erfolgreicher-winter-und-chancen-im-sommer-sportartikel-branche-beweist-stabilitaet-und-anpassungsfaehigkeit/"
+        },
+        {
+          "keyword": "trail running schuhe",
+          "signal_name": "Trailrunningschuhe für Herren online kaufen - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/c/schuhe/herren/reiseschuhe-freizeitschuhe/trailrunningschuhe"
+        },
+        {
+          "keyword": "trail running schuhe",
+          "signal_name": "Buy Trail running shoes for women, men & children online - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/c/shoes/travel-shoes-casual-shoes/trail-running-shoes"
         }
       ]
     },
@@ -139,9 +163,10 @@
         "Klettersteig",
         "Via Ferrata",
         "Via Ferrata Starter Kits",
-        "Vía ferrata"
+        "Vía ferrata",
+        "klettersteig via ferrata"
       ],
-      "signal_count": 12,
+      "signal_count": 36,
       "sources": [
         "Agent Synthesis",
         "Google Trends",
@@ -149,10 +174,15 @@
         "Google Trends (google search)",
         "Google Trends (google shopping)",
         "YouTube",
+        "decathlon.ch",
+        "galaxus.ch",
+        "ochsnersport.ch",
+        "tavily_news",
         "transa.ch"
       ],
       "source_types": [
         "competitor",
+        "marketplace",
         "search",
         "social",
         "web"
@@ -162,8 +192,12 @@
         "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Klettersteig",
         "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Vía%20ferrata",
         "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Vía%20ferrata",
-        "https://www.transa.ch/de/p/salomon-gravel-skin-4-set-357211-002/",
-        "https://www.transa.ch/de/b/klettersteig/"
+        "https://www.transa.ch/de/b/klettersteig/",
+        "https://www.transa.ch/de/p/fixe-flamenc-via-ferrata-346053-001",
+        "https://www.transa.ch/de/b/fixe/klettersteig-sets",
+        "https://www.ochsnersport.ch/it-ch/p/mammut-skywalker-pro-set-per-via-ferrata-blu-55123",
+        "https://www.ochsnersport.ch/de-ch/p/mammut-skywalker-pro-klettersteigset-blau-30713",
+        "https://www.decathlon.ch/de/mehr-als-140-sportarten/klettern/klettersteig"
       ],
       "overlap_warning": true,
       "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
@@ -239,18 +273,186 @@
           "url": ""
         },
         {
-          "keyword": "Via Ferrata Starter Kits",
-          "signal_name": "CH competitor / trade signal: Via Ferrata Starter Kits",
-          "source": "transa.ch",
-          "signal_type": "competitor",
-          "url": "https://www.transa.ch/de/p/salomon-gravel-skin-4-set-357211-002/"
-        },
-        {
           "keyword": "Klettersteig",
           "signal_name": "CH competitor / trade signal: Klettersteig",
           "source": "transa.ch",
           "signal_type": "competitor",
           "url": "https://www.transa.ch/de/b/klettersteig/"
+        },
+        {
+          "keyword": "klettersteig via ferrata",
+          "signal_name": "Fixe Flamenc Via Ferrata Klettersteig-Set one size black - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/p/fixe-flamenc-via-ferrata-346053-001"
+        },
+        {
+          "keyword": "klettersteig via ferrata",
+          "signal_name": "Fixe Klettersteig-Sets online kaufen - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/b/fixe/klettersteig-sets"
+        },
+        {
+          "keyword": "klettersteig via ferrata",
+          "signal_name": "MAMMUT Skywalker Pro set per via ferrata blu | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/it-ch/p/mammut-skywalker-pro-set-per-via-ferrata-blu-55123"
+        },
+        {
+          "keyword": "klettersteig via ferrata",
+          "signal_name": "MAMMUT Skywalker Pro Klettersteigset Blau | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/p/mammut-skywalker-pro-klettersteigset-blau-30713"
+        }
+      ]
+    },
+    {
+      "theme_id": "bikepacking",
+      "display_name": "Packrafting",
+      "keywords": [
+        "Packrafting",
+        "Ultralight Backpacking",
+        "bikepacking"
+      ],
+      "signal_count": 26,
+      "sources": [
+        "Agent Synthesis",
+        "Google Trends",
+        "YouTube",
+        "decathlon.ch",
+        "ochsnersport.ch",
+        "tavily_news",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "marketplace",
+        "search",
+        "social",
+        "web"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=bikepacking",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=bikepacking",
+        "https://www.transa.ch/en/p/matador-beast18-ultralight-technical-backpack-309953-001",
+        "https://www.transa.ch/en/p/matador-beast28-ultralight-technical-backpack-309952-001",
+        "https://www.ochsnersport.ch/de-ch/c/alle-rucksaecke-665?brand=osprey-10055",
+        "https://www.ochsnersport.ch/de-ch/b/46-nord-1957",
+        "https://www.decathlon.ch/en/p/ultra-light-50l-trekking-backpack-mt900-ul/350653/c230c382m8843416",
+        "https://www.decathlon.ch/en/p/ultra-light-fast-hiking-backpack-17l-fh500/325277/c381m8586020",
+        "https://www.transa.ch/de/b/bikepacking/",
+        "https://www.transa.ch/en/blog/cycling/bikepacking-for-beginners"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "bikepacking",
+          "signal_name": "Bikepacking interest",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=bikepacking"
+        },
+        {
+          "keyword": "bikepacking",
+          "signal_name": "Bikepacking interest",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=bikepacking"
+        },
+        {
+          "keyword": "Packrafting",
+          "signal_name": "Packrafting",
+          "source": "YouTube",
+          "signal_type": "social",
+          "url": ""
+        },
+        {
+          "keyword": "Ultralight Backpacking",
+          "signal_name": "Ultralight Backpacking",
+          "source": "YouTube",
+          "signal_type": "social",
+          "url": ""
+        },
+        {
+          "keyword": "Packrafting",
+          "signal_name": "Packrafting",
+          "source": "Agent Synthesis",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "Ultralight Backpacking",
+          "signal_name": "Matador Beast18 Ultralight Technical Backpack Hiking backpack black 18 Liters - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/p/matador-beast18-ultralight-technical-backpack-309953-001"
+        },
+        {
+          "keyword": "Ultralight Backpacking",
+          "signal_name": "Matador Beast28 Ultralight Technical Backpack Hiking backpack black 28 Liters - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/p/matador-beast28-ultralight-technical-backpack-309952-001"
+        },
+        {
+          "keyword": "Ultralight Backpacking",
+          "signal_name": "Osprey Rucksäcke kaufen | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/c/alle-rucksaecke-665?brand=osprey-10055"
+        },
+        {
+          "keyword": "Ultralight Backpacking",
+          "signal_name": "46 NORD Shop | online kaufen bei ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/b/46-nord-1957"
+        },
+        {
+          "keyword": "Ultralight Backpacking",
+          "signal_name": "Ultra-light 50L trekking backpack MT900 UL - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/p/ultra-light-50l-trekking-backpack-mt900-ul/350653/c230c382m8843416"
+        },
+        {
+          "keyword": "Ultralight Backpacking",
+          "signal_name": "Ultra-light fast hiking backpack 17L - FH500 - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/p/ultra-light-fast-hiking-backpack-17l-fh500/325277/c381m8586020"
+        },
+        {
+          "keyword": "bikepacking",
+          "signal_name": "CH competitor / trade signal: bikepacking",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/b/bikepacking/"
+        },
+        {
+          "keyword": "bikepacking",
+          "signal_name": "Bikepacking for beginners: tips for your adventure - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/blog/cycling/bikepacking-for-beginners"
+        },
+        {
+          "keyword": "bikepacking",
+          "signal_name": "Finde deine passende Bikepacking Ausrüstung - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/c/lp/bikepacking"
+        },
+        {
+          "keyword": "bikepacking",
+          "signal_name": "Velogepäck kaufen | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/c/alle-velogepaeck-687"
         }
       ]
     },
@@ -261,20 +463,29 @@
         "Escalada",
         "Salud"
       ],
-      "signal_count": 12,
+      "signal_count": 18,
       "sources": [
         "Google Trends (google news)",
         "Google Trends (google search)",
-        "Google Trends (google shopping)"
+        "Google Trends (google shopping)",
+        "decathlon.ch",
+        "transa.ch"
       ],
       "source_types": [
+        "competitor",
         "search"
       ],
       "evidence_urls": [
         "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Escalada",
         "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Salud",
         "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Escalada",
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Salud"
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Salud",
+        "https://www.decathlon.ch/it/p/mp/footgel-soletta-da-padel-colore-marrone-brown/da302db4-8dc3-4902-ab7f-57617a71da8c/c9c9",
+        "https://www.decathlon.ch/fr/brands/footgel",
+        "https://www.transa.ch/en/c/equipment/climbing-bouldering",
+        "https://www.transa.ch/en/blog/climbing/sun-sea-and-perfect-rocks",
+        "https://www.decathlon.ch/fr/plus-de-140-sports/escalade",
+        "https://www.decathlon.ch/fr/plus-de-140-sports/escalade/equipement-degaines"
       ],
       "overlap_warning": true,
       "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
@@ -362,79 +573,27 @@
           "source": "Google Trends (google shopping)",
           "signal_type": "search",
           "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Salud"
-        }
-      ]
-    },
-    {
-      "theme_id": "bikepacking",
-      "display_name": "Packrafting",
-      "keywords": [
-        "Packrafting",
-        "Ultralight Backpacking",
-        "bikepacking"
-      ],
-      "signal_count": 6,
-      "sources": [
-        "Agent Synthesis",
-        "Google Trends",
-        "YouTube",
-        "transa.ch"
-      ],
-      "source_types": [
-        "competitor",
-        "search",
-        "social",
-        "web"
-      ],
-      "evidence_urls": [
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=bikepacking",
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=bikepacking",
-        "https://www.transa.ch/de/b/bikepacking/"
-      ],
-      "overlap_warning": true,
-      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
-      "member_signals": [
-        {
-          "keyword": "bikepacking",
-          "signal_name": "Bikepacking interest",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=bikepacking"
         },
         {
-          "keyword": "bikepacking",
-          "signal_name": "Bikepacking interest",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=bikepacking"
+          "keyword": "Salud",
+          "signal_name": "FOOTGEL SOLETTA DA PADEL COLORE MARRONE BROWN",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/it/p/mp/footgel-soletta-da-padel-colore-marrone-brown/da302db4-8dc3-4902-ab7f-57617a71da8c/c9c9"
         },
         {
-          "keyword": "Packrafting",
-          "signal_name": "Packrafting",
-          "source": "YouTube",
-          "signal_type": "social",
-          "url": ""
+          "keyword": "Salud",
+          "signal_name": "Boutique FOOTGEL acheter chez Decathlon",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/fr/brands/footgel"
         },
         {
-          "keyword": "Ultralight Backpacking",
-          "signal_name": "Ultralight Backpacking",
-          "source": "YouTube",
-          "signal_type": "social",
-          "url": ""
-        },
-        {
-          "keyword": "Packrafting",
-          "signal_name": "Packrafting",
-          "source": "Agent Synthesis",
-          "signal_type": "web",
-          "url": ""
-        },
-        {
-          "keyword": "bikepacking",
-          "signal_name": "CH competitor / trade signal: bikepacking",
+          "keyword": "Escalada",
+          "signal_name": "Buy Climbing & bouldering online - Transa.ch",
           "source": "transa.ch",
           "signal_type": "competitor",
-          "url": "https://www.transa.ch/de/b/bikepacking/"
+          "url": "https://www.transa.ch/en/c/equipment/climbing-bouldering"
         }
       ]
     },
@@ -444,18 +603,28 @@
       "keywords": [
         "Senderismo"
       ],
-      "signal_count": 6,
+      "signal_count": 12,
       "sources": [
         "Google Trends (google news)",
         "Google Trends (google search)",
-        "Google Trends (google shopping)"
+        "Google Trends (google shopping)",
+        "decathlon.ch",
+        "ochsnersport.ch",
+        "transa.ch"
       ],
       "source_types": [
+        "competitor",
         "search"
       ],
       "evidence_urls": [
         "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Senderismo",
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Senderismo"
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Senderismo",
+        "https://www.transa.ch/en/c/shoes/hiking-shoes-boots-climbing-shoes/hiking-shoes-boots-trekking-shoes-boots",
+        "https://www.transa.ch/de/c/outlet",
+        "https://www.ochsnersport.ch/fr-ch/c/tous-chaussures-de-randonnee-445",
+        "https://www.ochsnersport.ch/de-ch/storefinder/schaffhausen-studliackerstrasse-10-osp348",
+        "https://www.decathlon.ch/it/sports/escursionismo-trekking",
+        "https://www.decathlon.ch/fr/plus-de-140-sports/randonnee-trekking"
       ],
       "overlap_warning": true,
       "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
@@ -501,6 +670,718 @@
           "source": "Google Trends (google shopping)",
           "signal_type": "search",
           "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Senderismo"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Buy Hiking shoes/boots & trekking shoes/boots for women, men & children online - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/c/shoes/hiking-shoes-boots-climbing-shoes/hiking-shoes-boots-trekking-shoes-boots"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Outlet - Transa",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/c/outlet"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Chaussures de randonnée acheter | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/fr-ch/c/tous-chaussures-de-randonnee-445"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Schaffhausen OSP - Ochsner Sport",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/storefinder/schaffhausen-studliackerstrasse-10-osp348"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Escursionismo, Trekking - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/it/sports/escursionismo-trekking"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Randonnée, Trekking - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/fr/plus-de-140-sports/randonnee-trekking"
+        }
+      ]
+    },
+    {
+      "theme_id": "esqu",
+      "display_name": "Esquí",
+      "keywords": [
+        "Esquí"
+      ],
+      "signal_count": 12,
+      "sources": [
+        "Google Trends (google news)",
+        "Google Trends (google search)",
+        "Google Trends (google shopping)",
+        "decathlon.ch",
+        "ochsnersport.ch",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí",
+        "https://www.transa.ch/en/c/shoes/ski-boots-winter-shoes",
+        "https://www.transa.ch/en/services/rent-winter-sports-equipment",
+        "https://www.ochsnersport.ch/fr-ch/rent",
+        "https://www.ochsnersport.ch/fr-ch/b/peak-performance-19931",
+        "https://www.decathlon.ch/fr/vc/location-ski-lausanne-ags",
+        "https://www.decathlon.ch/en/rental-ski-geneve_lp-V8N4ZI"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Buy Ski boots & Winter shoes for women, men & children online - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/c/shoes/ski-boots-winter-shoes"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Rent touring ski equipment and snowshoes - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/services/rent-winter-sports-equipment"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Location de skis & de snowboards | OCHSNER SPORT",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/fr-ch/rent"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Articles PEAK PERFORMANCE | pas cher ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/fr-ch/b/peak-performance-19931"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Location Ski Lausanne - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/fr/vc/location-ski-lausanne-ags"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Location Ski Genève - Decathlon Blandonnet",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/rental-ski-geneve_lp-V8N4ZI"
+        }
+      ]
+    },
+    {
+      "theme_id": "ciclismo",
+      "display_name": "Ciclismo",
+      "keywords": [
+        "Ciclismo"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "Google Trends (google news)",
+        "Google Trends (google search)",
+        "Google Trends (google shopping)",
+        "decathlon.ch",
+        "ochsnersport.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo",
+        "https://www.ochsnersport.ch/it-ch/c/uomo/ciclismo-2816",
+        "https://www.ochsnersport.ch/it-ch/melanie-meillard",
+        "https://www.decathlon.ch/it/sports/biciclette-ciclismo/marchi?from=5120&size=40",
+        "https://www.decathlon.ch/it/sports/biciclette-ciclismo/marchi?from=2720&size=40"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo uomo Shop | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/it-ch/c/uomo/ciclismo-2816"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Mélanie Meillard | OCHSNER SPORT",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/it-ch/melanie-meillard"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Pagina 129: Marche di ciclismo - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/it/sports/biciclette-ciclismo/marchi?from=5120&size=40"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Pagina 69: Marche di ciclismo - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/it/sports/biciclette-ciclismo/marchi?from=2720&size=40"
+        }
+      ]
+    },
+    {
+      "theme_id": "merino_base",
+      "display_name": "Merino / Natural Fiber Base Layers",
+      "keywords": [
+        "Merino / Natural Fiber Base Layers",
+        "Merino Wool & Natural Fibers"
+      ],
+      "signal_count": 10,
+      "sources": [
+        "Agent Synthesis",
+        "Market Reports",
+        "decathlon.ch",
+        "ochsnersport.ch",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "web"
+      ],
+      "evidence_urls": [
+        "https://www.transa.ch/de/blog/nachhaltigkeit/pfas-faq/",
+        "https://www.ochsnersport.ch/fr-ch/c/tous-vetements-de-running-1350",
+        "https://www.ochsnersport.ch/fr-ch/p/odlo-natural-merino-200-warm-manche-longue-thermique-femmes-noir-26338",
+        "https://www.decathlon.ch/en/p/merino-wool-mountain-breeches-mt900/338608/c364m8788971",
+        "https://www.decathlon.ch/en/p/mp/odlo-light-merino-160-men-s-base-layer-long-johns-black-xl/42662536-b0f2-49fd-b542-5f46f64393a5/c1",
+        "https://www.transa.ch/en/p/ortovox-150-cool-beanie-316367-002",
+        "https://www.transa.ch/en/p/picture-salinar-merino-ls-tee-317484-003",
+        "https://www.decathlon.ch/it/p/mp/dynamic-merino-l-r/6edc728a-bfe5-402c-a01b-e7cf9650b286/c1"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Merino Wool & Natural Fibers",
+          "signal_name": "Merino Wool & Natural Fibers",
+          "source": "Market Reports",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "Merino / Natural Fiber Base Layers",
+          "signal_name": "Merino / Natural Fiber Base Layers",
+          "source": "Agent Synthesis",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "Merino / Natural Fiber Base Layers",
+          "signal_name": "CH competitor / trade signal: Merino / Natural Fiber Base Layers",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/blog/nachhaltigkeit/pfas-faq/"
+        },
+        {
+          "keyword": "Merino / Natural Fiber Base Layers",
+          "signal_name": "Vêtements de running acheter | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/fr-ch/c/tous-vetements-de-running-1350"
+        },
+        {
+          "keyword": "Merino / Natural Fiber Base Layers",
+          "signal_name": "Odlo Natural Merino 200 Warm manche longue thermique femmes noir | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/fr-ch/p/odlo-natural-merino-200-warm-manche-longue-thermique-femmes-noir-26338"
+        },
+        {
+          "keyword": "Merino / Natural Fiber Base Layers",
+          "signal_name": "Merino wool mountain breeches - MT900 - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/p/merino-wool-mountain-breeches-mt900/338608/c364m8788971"
+        },
+        {
+          "keyword": "Merino / Natural Fiber Base Layers",
+          "signal_name": "ODLO Light Merino 160 Men's Base Layer Long Johns — Black XL.",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/p/mp/odlo-light-merino-160-men-s-base-layer-long-johns-black-xl/42662536-b0f2-49fd-b542-5f46f64393a5/c1"
+        },
+        {
+          "keyword": "Merino Wool & Natural Fibers",
+          "signal_name": "Ortovox 150 Cool Beanie Beanie one size deep ocean - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/p/ortovox-150-cool-beanie-316367-002"
+        },
+        {
+          "keyword": "Merino Wool & Natural Fibers",
+          "signal_name": "Picture Salinar Merino LS Tee Cycling tricot deep water S - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/p/picture-salinar-merino-ls-tee-317484-003"
+        },
+        {
+          "keyword": "Merino Wool & Natural Fibers",
+          "signal_name": "Dynamic Merino l/r | Decathlon",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/it/p/mp/dynamic-merino-l-r/6edc728a-bfe5-402c-a01b-e7cf9650b286/c1"
+        }
+      ]
+    },
+    {
+      "theme_id": "skitour",
+      "display_name": "Skitour",
+      "keywords": [
+        "Skitour",
+        "skitour tourenski"
+      ],
+      "signal_count": 9,
+      "sources": [
+        "Google Trends",
+        "decathlon.ch",
+        "ochsnersport.ch",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Skitour",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Skitour",
+        "https://www.transa.ch/de/b/skitour/",
+        "https://www.transa.ch/en/blog/winter-sports/ski-touring-switzerland",
+        "https://www.transa.ch/en/blog/winter-sports/ski-tour-spitzmeilen",
+        "https://www.ochsnersport.ch/de-ch/c/alle-touren-1835",
+        "https://www.ochsnersport.ch/de-ch/c/alle-touren-ski-632",
+        "https://www.decathlon.ch/de/mehr-als-140-sportarten/sportwinter/tourenski",
+        "https://www.decathlon.ch/de/mehr-als-140-sportarten/sportwinter/tourenski-shop?from=40&size=40"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Skitour",
+          "signal_name": "Ski touring (Skitour) demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Skitour"
+        },
+        {
+          "keyword": "Skitour",
+          "signal_name": "Ski touring (Skitour) demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Skitour"
+        },
+        {
+          "keyword": "Skitour",
+          "signal_name": "CH competitor / trade signal: Skitour",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/b/skitour/"
+        },
+        {
+          "keyword": "skitour tourenski",
+          "signal_name": "Ski touring in Switzerland: for beginners and pros - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/blog/winter-sports/ski-touring-switzerland"
+        },
+        {
+          "keyword": "skitour tourenski",
+          "signal_name": "Ski tour: From Flumserberg to the Spitzmeilen - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/blog/winter-sports/ski-tour-spitzmeilen"
+        },
+        {
+          "keyword": "skitour tourenski",
+          "signal_name": "Touren Shop | kaufen bei ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/c/alle-touren-1835"
+        },
+        {
+          "keyword": "skitour tourenski",
+          "signal_name": "Touren Ski Shop | kaufen bei ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/c/alle-touren-ski-632"
+        },
+        {
+          "keyword": "skitour tourenski",
+          "signal_name": "Tourenskier Bester Preis - Decathlon CH",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/de/mehr-als-140-sportarten/sportwinter/tourenski"
+        },
+        {
+          "keyword": "skitour tourenski",
+          "signal_name": "Seite 2: Skitouren-Shop die Besten Preise bei Decathlon",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/de/mehr-als-140-sportarten/sportwinter/tourenski-shop?from=40&size=40"
+        }
+      ]
+    },
+    {
+      "theme_id": "recycled_down",
+      "display_name": "recycled down",
+      "keywords": [
+        "recycled down",
+        "recycled down daunen"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "Google Trends",
+        "decathlon.ch",
+        "ochsnersport.ch",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=recycled%20down",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=recycled%20down",
+        "https://www.transa.ch/de/p/the-north-face-w-hyalite-down-parka-334945-005",
+        "https://www.transa.ch/de/p/bach-recover-down-5-317401-001",
+        "https://www.ochsnersport.ch/de-ch/p/the-north-face-aconcagua-iii-herren-daunenjacke-schwarz-34613",
+        "https://www.ochsnersport.ch/de/shop/jack-wolfskin-ather-hooded-herren-daunenjacke-dunkelbraun-00002002501382-p.html",
+        "https://www.decathlon.ch/de/p/0degc-daunen-trekking-schlafsack-leicht-und-klein-verpackbar-mt900-undyed/355345/c335m8935630",
+        "https://www.decathlon.ch/de/p/trekking-daunenjacke-aus-90-percent-recycelter-daune-3degc-herren-mt100-schwarz/356260/c1m8901459"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "recycled down",
+          "signal_name": "Recycled down sustainability interest",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=recycled%20down"
+        },
+        {
+          "keyword": "recycled down",
+          "signal_name": "Recycled down sustainability interest",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=recycled%20down"
+        },
+        {
+          "keyword": "recycled down daunen",
+          "signal_name": "The North Face W Hyalite Down Parka Mantel tnf black L - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/p/the-north-face-w-hyalite-down-parka-334945-005"
+        },
+        {
+          "keyword": "recycled down daunen",
+          "signal_name": "Bach reCOVER down -5° Daunenschlafsack amber brown L-Left",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/p/bach-recover-down-5-317401-001"
+        },
+        {
+          "keyword": "recycled down daunen",
+          "signal_name": "The North Face Aconcagua III Herren Daunenjacke Schwarz",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/p/the-north-face-aconcagua-iii-herren-daunenjacke-schwarz-34613"
+        },
+        {
+          "keyword": "recycled down daunen",
+          "signal_name": "Jack Wolfskin Ather Hooded Herren Daunenjacke in dunkelbraun ...",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de/shop/jack-wolfskin-ather-hooded-herren-daunenjacke-dunkelbraun-00002002501382-p.html"
+        },
+        {
+          "keyword": "recycled down daunen",
+          "signal_name": "0°C Daunen-Trekking-Schlafsack, leicht und klein verpackbar ...",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/de/p/0degc-daunen-trekking-schlafsack-leicht-und-klein-verpackbar-mt900-undyed/355345/c335m8935630"
+        },
+        {
+          "keyword": "recycled down daunen",
+          "signal_name": "Trekking-Daunenjacke aus 90 % recycelter Daune -3°C Herren ...",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/de/p/trekking-daunenjacke-aus-90-percent-recycelter-daune-3degc-herren-mt100-schwarz/356260/c1m8901459"
+        }
+      ]
+    },
+    {
+      "theme_id": "ultralight_sleep",
+      "display_name": "ultraleicht schlafsack",
+      "keywords": [
+        "ultraleicht schlafsack",
+        "ultralight sleeping bag"
+      ],
+      "signal_count": 8,
+      "sources": [
+        "Google Trends",
+        "decathlon.ch",
+        "ochsnersport.ch",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=ultralight%20sleeping%20bag",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=ultralight%20sleeping%20bag",
+        "https://www.transa.ch/de/c/ausruestung/schlafsaecke-isomatten",
+        "https://www.transa.ch/de/p/western-mountaineering-ultralite-035089-002932",
+        "https://www.ochsnersport.ch/de-ch/p/46-nord-vario-kinder-schlafsack-blau-951",
+        "https://www.ochsnersport.ch/de-ch/p/sea-to-summit-reactor-lightweight-regular-huttenschlafsack-grau-50935",
+        "https://www.decathlon.ch/de/p/mp/schlafsack-husky-devon-5-fur-ihre-expeditionen-in-den-bergen/202cb617-328d-438b-bb31-dcfb114d1fb9/c9",
+        "https://www.decathlon.ch/de/mehr-als-140-sportarten/camping/schlafausstattung-taschen-schlafausstattung-laken-kissen?opeco=opeco%3ALISTING-PAGE_MARKETING-BLOC_ch_l-de_n-local-campaign_me-not-applied_f-cv_dc-web_spu-hik_pt-all_d-250416-aw_xx-Camping-Sleepingbags_&type=opeco&from=200&size=40"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "ultralight sleeping bag",
+          "signal_name": "Ultralight sleeping bag demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=ultralight%20sleeping%20bag"
+        },
+        {
+          "keyword": "ultralight sleeping bag",
+          "signal_name": "Ultralight sleeping bag demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=ultralight%20sleeping%20bag"
+        },
+        {
+          "keyword": "ultraleicht schlafsack",
+          "signal_name": "Schlafsäcke & Isomatten online kaufen - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/c/ausruestung/schlafsaecke-isomatten"
+        },
+        {
+          "keyword": "ultraleicht schlafsack",
+          "signal_name": "Western Mountaineering UltraLite Daunenschlafsack blue S-Left - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/p/western-mountaineering-ultralite-035089-002932"
+        },
+        {
+          "keyword": "ultraleicht schlafsack",
+          "signal_name": "46 NORD Vario Kinder Schlafsack Blau | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/p/46-nord-vario-kinder-schlafsack-blau-951"
+        },
+        {
+          "keyword": "ultraleicht schlafsack",
+          "signal_name": "Sea to Summit Reactor Lightweight - Regular Hüttenschlafsack Grau",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/p/sea-to-summit-reactor-lightweight-regular-huttenschlafsack-grau-50935"
+        },
+        {
+          "keyword": "ultraleicht schlafsack",
+          "signal_name": "Schlafsack HUSKY DEVON -5 - für Ihre Expeditionen in den Bergen",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/de/p/mp/schlafsack-husky-devon-5-fur-ihre-expeditionen-in-den-bergen/202cb617-328d-438b-bb31-dcfb114d1fb9/c9"
+        },
+        {
+          "keyword": "ultraleicht schlafsack",
+          "signal_name": "Seite 6: Schlafsäcke kaufen bei Decathlon - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/de/mehr-als-140-sportarten/camping/schlafausstattung-taschen-schlafausstattung-laken-kissen?opeco=opeco%3ALISTING-PAGE_MARKETING-BLOC_ch_l-de_n-local-campaign_me-not-applied_f-cv_dc-web_spu-hik_pt-all_d-250416-aw_xx-Camping-Sleepingbags_&type=opeco&from=200&size=40"
+        }
+      ]
+    },
+    {
+      "theme_id": "alpha_direct",
+      "display_name": "Alpha Direct",
+      "keywords": [
+        "Alpha Direct",
+        "alpha direct isolierung"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "Google Trends",
+        "ochsnersport.ch",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Alpha%20Direct",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Alpha%20Direct",
+        "https://www.transa.ch/de/b/big-agnes",
+        "https://www.transa.ch/de/b/big-agnes/schlafsaecke-isomatten",
+        "https://www.ochsnersport.ch/de-ch/p/dynafit-tigard-alphar-direct-herren-midlayer-grau-43995",
+        "https://www.ochsnersport.ch/it-ch/p/dynafit-tigard-alphar-direct-midlayer-uomo-grigio-43995"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Alpha Direct",
+          "signal_name": "Alpha Direct insulation material curiosity",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Alpha%20Direct"
+        },
+        {
+          "keyword": "Alpha Direct",
+          "signal_name": "Alpha Direct insulation material curiosity",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Alpha%20Direct"
+        },
+        {
+          "keyword": "alpha direct isolierung",
+          "signal_name": "Big Agnes-Artikel online kaufen - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/b/big-agnes"
+        },
+        {
+          "keyword": "alpha direct isolierung",
+          "signal_name": "Big Agnes Schlafsäcke & Isomatten online kaufen - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/b/big-agnes/schlafsaecke-isomatten"
+        },
+        {
+          "keyword": "alpha direct isolierung",
+          "signal_name": "Dynafit Tigard Alpha® Direct Herren Midlayer Grau | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/p/dynafit-tigard-alphar-direct-herren-midlayer-grau-43995"
+        },
+        {
+          "keyword": "alpha direct isolierung",
+          "signal_name": "Dynafit Tigard Alpha® Direct midlayer uomo grigio | ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/it-ch/p/dynafit-tigard-alphar-direct-midlayer-uomo-grigio-43995"
         }
       ]
     },
@@ -571,194 +1452,16 @@
       ]
     },
     {
-      "theme_id": "esqu",
-      "display_name": "Esquí",
+      "theme_id": "water_sports_backpacking_equipment",
+      "display_name": "Water Sports & Backpacking Equipment",
       "keywords": [
-        "Esquí"
+        "Water Sports & Backpacking Equipment"
       ],
       "signal_count": 6,
       "sources": [
-        "Google Trends (google news)",
-        "Google Trends (google search)",
-        "Google Trends (google shopping)"
-      ],
-      "source_types": [
-        "search"
-      ],
-      "evidence_urls": [
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí",
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
-      ],
-      "overlap_warning": true,
-      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
-      "member_signals": [
-        {
-          "keyword": "Esquí",
-          "signal_name": "Esquí CH search interest (google news)",
-          "source": "Google Trends (google news)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí"
-        },
-        {
-          "keyword": "Esquí",
-          "signal_name": "Esquí CH search interest (google search)",
-          "source": "Google Trends (google search)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí"
-        },
-        {
-          "keyword": "Esquí",
-          "signal_name": "Esquí CH search interest (google shopping)",
-          "source": "Google Trends (google shopping)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí"
-        },
-        {
-          "keyword": "Esquí",
-          "signal_name": "Esquí US search interest (google news)",
-          "source": "Google Trends (google news)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
-        },
-        {
-          "keyword": "Esquí",
-          "signal_name": "Esquí US search interest (google search)",
-          "source": "Google Trends (google search)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
-        },
-        {
-          "keyword": "Esquí",
-          "signal_name": "Esquí US search interest (google shopping)",
-          "source": "Google Trends (google shopping)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
-        }
-      ]
-    },
-    {
-      "theme_id": "ciclismo",
-      "display_name": "Ciclismo",
-      "keywords": [
-        "Ciclismo"
-      ],
-      "signal_count": 6,
-      "sources": [
-        "Google Trends (google news)",
-        "Google Trends (google search)",
-        "Google Trends (google shopping)"
-      ],
-      "source_types": [
-        "search"
-      ],
-      "evidence_urls": [
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo",
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
-      ],
-      "overlap_warning": true,
-      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
-      "member_signals": [
-        {
-          "keyword": "Ciclismo",
-          "signal_name": "Ciclismo CH search interest (google news)",
-          "source": "Google Trends (google news)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo"
-        },
-        {
-          "keyword": "Ciclismo",
-          "signal_name": "Ciclismo CH search interest (google search)",
-          "source": "Google Trends (google search)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo"
-        },
-        {
-          "keyword": "Ciclismo",
-          "signal_name": "Ciclismo CH search interest (google shopping)",
-          "source": "Google Trends (google shopping)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo"
-        },
-        {
-          "keyword": "Ciclismo",
-          "signal_name": "Ciclismo US search interest (google news)",
-          "source": "Google Trends (google news)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
-        },
-        {
-          "keyword": "Ciclismo",
-          "signal_name": "Ciclismo US search interest (google search)",
-          "source": "Google Trends (google search)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
-        },
-        {
-          "keyword": "Ciclismo",
-          "signal_name": "Ciclismo US search interest (google shopping)",
-          "source": "Google Trends (google shopping)",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
-        }
-      ]
-    },
-    {
-      "theme_id": "skitour",
-      "display_name": "Skitour",
-      "keywords": [
-        "Skitour"
-      ],
-      "signal_count": 3,
-      "sources": [
-        "Google Trends",
-        "transa.ch"
-      ],
-      "source_types": [
-        "competitor",
-        "search"
-      ],
-      "evidence_urls": [
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Skitour",
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Skitour",
-        "https://www.transa.ch/de/b/skitour/"
-      ],
-      "overlap_warning": false,
-      "overlap_note": "Single coherent theme.",
-      "member_signals": [
-        {
-          "keyword": "Skitour",
-          "signal_name": "Ski touring (Skitour) demand",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Skitour"
-        },
-        {
-          "keyword": "Skitour",
-          "signal_name": "Ski touring (Skitour) demand",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Skitour"
-        },
-        {
-          "keyword": "Skitour",
-          "signal_name": "CH competitor / trade signal: Skitour",
-          "source": "transa.ch",
-          "signal_type": "competitor",
-          "url": "https://www.transa.ch/de/b/skitour/"
-        }
-      ]
-    },
-    {
-      "theme_id": "merino_base",
-      "display_name": "Merino / Natural Fiber Base Layers",
-      "keywords": [
-        "Merino / Natural Fiber Base Layers",
-        "Merino Wool & Natural Fibers"
-      ],
-      "signal_count": 3,
-      "sources": [
-        "Agent Synthesis",
         "Market Reports",
+        "decathlon.ch",
+        "ochsnersport.ch",
         "transa.ch"
       ],
       "source_types": [
@@ -766,139 +1469,56 @@
         "web"
       ],
       "evidence_urls": [
-        "https://www.transa.ch/de/blog/nachhaltigkeit/pfas-faq/"
+        "https://www.transa.ch/en/blog/leisure-time/secondhand-transa",
+        "https://www.ochsnersport.ch/fr-ch",
+        "https://www.ochsnersport.ch/de-ch/b/beach-mountain-1590",
+        "https://www.decathlon.ch/en/p/waterproof-backpack-water-sports-30-l-ipx6-500-orange/365227/c50m8941674",
+        "https://www.decathlon.ch/en/p/waterproof-backpack-water-sports-30-l-ipx6-500-blue/365227/c351m8941673"
       ],
       "overlap_warning": true,
       "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
       "member_signals": [
         {
-          "keyword": "Merino Wool & Natural Fibers",
-          "signal_name": "Merino Wool & Natural Fibers",
+          "keyword": "Water Sports & Backpacking Equipment",
+          "signal_name": "Water Sports & Backpacking Equipment",
           "source": "Market Reports",
           "signal_type": "web",
           "url": ""
         },
         {
-          "keyword": "Merino / Natural Fiber Base Layers",
-          "signal_name": "Merino / Natural Fiber Base Layers",
-          "source": "Agent Synthesis",
-          "signal_type": "web",
-          "url": ""
-        },
-        {
-          "keyword": "Merino Wool & Natural Fibers",
-          "signal_name": "CH competitor / trade signal: Merino Wool & Natural Fibers",
+          "keyword": "Water Sports & Backpacking Equipment",
+          "signal_name": "Second-hand at Transa: new online shop",
           "source": "transa.ch",
           "signal_type": "competitor",
-          "url": "https://www.transa.ch/de/blog/nachhaltigkeit/pfas-faq/"
-        }
-      ]
-    },
-    {
-      "theme_id": "alpha_direct",
-      "display_name": "Alpha Direct",
-      "keywords": [
-        "Alpha Direct"
-      ],
-      "signal_count": 2,
-      "sources": [
-        "Google Trends"
-      ],
-      "source_types": [
-        "search"
-      ],
-      "evidence_urls": [
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Alpha%20Direct",
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Alpha%20Direct"
-      ],
-      "overlap_warning": false,
-      "overlap_note": "Single coherent theme.",
-      "member_signals": [
-        {
-          "keyword": "Alpha Direct",
-          "signal_name": "Alpha Direct insulation material curiosity",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Alpha%20Direct"
+          "url": "https://www.transa.ch/en/blog/leisure-time/secondhand-transa"
         },
         {
-          "keyword": "Alpha Direct",
-          "signal_name": "Alpha Direct insulation material curiosity",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Alpha%20Direct"
-        }
-      ]
-    },
-    {
-      "theme_id": "recycled_down",
-      "display_name": "recycled down",
-      "keywords": [
-        "recycled down"
-      ],
-      "signal_count": 2,
-      "sources": [
-        "Google Trends"
-      ],
-      "source_types": [
-        "search"
-      ],
-      "evidence_urls": [
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=recycled%20down",
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=recycled%20down"
-      ],
-      "overlap_warning": false,
-      "overlap_note": "Single coherent theme.",
-      "member_signals": [
-        {
-          "keyword": "recycled down",
-          "signal_name": "Recycled down sustainability interest",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=recycled%20down"
+          "keyword": "Water Sports & Backpacking Equipment",
+          "signal_name": "OCHSNER SPORT | Ton magasin de sport en Suisse",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/fr-ch"
         },
         {
-          "keyword": "recycled down",
-          "signal_name": "Recycled down sustainability interest",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=recycled%20down"
-        }
-      ]
-    },
-    {
-      "theme_id": "ultralight_sleep",
-      "display_name": "ultralight sleeping bag",
-      "keywords": [
-        "ultralight sleeping bag"
-      ],
-      "signal_count": 2,
-      "sources": [
-        "Google Trends"
-      ],
-      "source_types": [
-        "search"
-      ],
-      "evidence_urls": [
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=ultralight%20sleeping%20bag",
-        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=ultralight%20sleeping%20bag"
-      ],
-      "overlap_warning": false,
-      "overlap_note": "Single coherent theme.",
-      "member_signals": [
-        {
-          "keyword": "ultralight sleeping bag",
-          "signal_name": "Ultralight sleeping bag demand",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=ultralight%20sleeping%20bag"
+          "keyword": "Water Sports & Backpacking Equipment",
+          "signal_name": "BEACH MOUNTAIN Shop | online kaufen bei ochsnersport.ch",
+          "source": "ochsnersport.ch",
+          "signal_type": "competitor",
+          "url": "https://www.ochsnersport.ch/de-ch/b/beach-mountain-1590"
         },
         {
-          "keyword": "ultralight sleeping bag",
-          "signal_name": "Ultralight sleeping bag demand",
-          "source": "Google Trends",
-          "signal_type": "search",
-          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=ultralight%20sleeping%20bag"
+          "keyword": "Water Sports & Backpacking Equipment",
+          "signal_name": "Waterproof backpack water sports 30 L, IPX6 500 orange | Decathlon",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/p/waterproof-backpack-water-sports-30-l-ipx6-500-orange/365227/c50m8941674"
+        },
+        {
+          "keyword": "Water Sports & Backpacking Equipment",
+          "signal_name": "Waterproof backpack water sports 30 L, IPX6 500 blue - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/p/waterproof-backpack-water-sports-30-l-ipx6-500-blue/365227/c351m8941673"
         }
       ]
     },
@@ -909,16 +1529,23 @@
         "Gorpcore → Quiet Outdoors Evolution",
         "Quiet Outdoors Aesthetic"
       ],
-      "signal_count": 2,
+      "signal_count": 5,
       "sources": [
         "Agent Synthesis",
-        "TikTok"
+        "TikTok",
+        "decathlon.ch",
+        "transa.ch"
       ],
       "source_types": [
+        "competitor",
         "social",
         "web"
       ],
-      "evidence_urls": [],
+      "evidence_urls": [
+        "https://www.transa.ch/en/p/black-crows-orb-freebird-191758-001",
+        "https://www.decathlon.ch/en/p/mp/new-balance-725-light-grey/76a84090-7303-4240-9da8-e1fa78725c70/c2c251",
+        "https://www.decathlon.ch/en/p/mp/standard-leather-stirrups-t-de-t/d281c9c3-ee93-4ac7-b019-dc4a30a0d2c6/c27c185"
+      ],
       "overlap_warning": true,
       "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
       "member_signals": [
@@ -935,6 +1562,27 @@
           "source": "Agent Synthesis",
           "signal_type": "web",
           "url": ""
+        },
+        {
+          "keyword": "Quiet Outdoors Aesthetic",
+          "signal_name": "Black Crows Orb Freebird Touring ski yellow 161 cm - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/p/black-crows-orb-freebird-191758-001"
+        },
+        {
+          "keyword": "Quiet Outdoors Aesthetic",
+          "signal_name": "New Balance 725 Light Grey | Decathlon",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/p/mp/new-balance-725-light-grey/76a84090-7303-4240-9da8-e1fa78725c70/c2c251"
+        },
+        {
+          "keyword": "Quiet Outdoors Aesthetic",
+          "signal_name": "Standard leather stirrups T de T - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/p/mp/standard-leather-stirrups-t-de-t/d281c9c3-ee93-4ac7-b019-dc4a30a0d2c6/c27c185"
         }
       ]
     },
@@ -944,16 +1592,24 @@
       "keywords": [
         "Arc'teryx & Salomon as Fashion Objects"
       ],
-      "signal_count": 1,
+      "signal_count": 5,
       "sources": [
-        "TikTok"
+        "TikTok",
+        "decathlon.ch",
+        "transa.ch"
       ],
       "source_types": [
+        "competitor",
         "social"
       ],
-      "evidence_urls": [],
-      "overlap_warning": false,
-      "overlap_note": "Single coherent theme.",
+      "evidence_urls": [
+        "https://www.transa.ch/en/b/salomon",
+        "https://www.transa.ch/en/c/clothing/trousers/hiking-skirts",
+        "https://www.decathlon.ch/en/men/clothing",
+        "https://www.decathlon.ch/en/men/clothing?from=2520&size=40"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
       "member_signals": [
         {
           "keyword": "Arc'teryx & Salomon as Fashion Objects",
@@ -961,6 +1617,34 @@
           "source": "TikTok",
           "signal_type": "social",
           "url": ""
+        },
+        {
+          "keyword": "Arc'teryx & Salomon as Fashion Objects",
+          "signal_name": "Buy Salomon items online - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/b/salomon"
+        },
+        {
+          "keyword": "Arc'teryx & Salomon as Fashion Objects",
+          "signal_name": "Buy Hiking skirts for women, men & children online - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/c/clothing/trousers/hiking-skirts"
+        },
+        {
+          "keyword": "Arc'teryx & Salomon as Fashion Objects",
+          "signal_name": "Men's Sportswear - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/men/clothing"
+        },
+        {
+          "keyword": "Arc'teryx & Salomon as Fashion Objects",
+          "signal_name": "Page 64: Men's Sportswear - Decathlon.ch",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/men/clothing?from=2520&size=40"
         }
       ]
     },
@@ -970,16 +1654,21 @@
       "keywords": [
         "Swiss Alps as TikTok Travel Backdrop"
       ],
-      "signal_count": 1,
+      "signal_count": 3,
       "sources": [
-        "TikTok"
+        "TikTok",
+        "transa.ch"
       ],
       "source_types": [
+        "competitor",
         "social"
       ],
-      "evidence_urls": [],
-      "overlap_warning": false,
-      "overlap_note": "Single coherent theme.",
+      "evidence_urls": [
+        "https://www.transa.ch/en",
+        "https://www.transa.ch/en/blog/hiking/10-alpine-tours-for-beginners-and-pros"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
       "member_signals": [
         {
           "keyword": "Swiss Alps as TikTok Travel Backdrop",
@@ -987,6 +1676,66 @@
           "source": "TikTok",
           "signal_type": "social",
           "url": ""
+        },
+        {
+          "keyword": "Swiss Alps as TikTok Travel Backdrop",
+          "signal_name": "High-quality travel and outdoor equipment - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en"
+        },
+        {
+          "keyword": "Swiss Alps as TikTok Travel Backdrop",
+          "signal_name": "7 Alpine tours: Vrenelisgärtli to Bishorn - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/blog/hiking/10-alpine-tours-for-beginners-and-pros"
+        }
+      ]
+    },
+    {
+      "theme_id": "swiss_outdoor_market_growth",
+      "display_name": "Swiss Outdoor Market Growth",
+      "keywords": [
+        "Swiss Outdoor Market Growth"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "Market Reports",
+        "decathlon.ch",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "web"
+      ],
+      "evidence_urls": [
+        "https://www.transa.ch/en/b/lowa",
+        "https://www.decathlon.ch/en/p/mp/hm62-t-1200-lumen-lightweight-trail-running-outdoor-headlamp/6fb06ca0-f6ba-487c-a64c-2d53901cd296/c1c14"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Swiss Outdoor Market Growth",
+          "signal_name": "Swiss Outdoor Market Growth",
+          "source": "Market Reports",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "Swiss Outdoor Market Growth",
+          "signal_name": "Buy Lowa items online - Transa.ch",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/en/b/lowa"
+        },
+        {
+          "keyword": "Swiss Outdoor Market Growth",
+          "signal_name": "HM62-T 1200 Lumen Lightweight Trail Running/Outdoor Headlamp",
+          "source": "decathlon.ch",
+          "signal_type": "competitor",
+          "url": "https://www.decathlon.ch/en/p/mp/hm62-t-1200-lumen-lightweight-trail-running-outdoor-headlamp/6fb06ca0-f6ba-487c-a64c-2d53901cd296/c1c14"
         }
       ]
     },
@@ -1012,58 +1761,6 @@
           "signal_name": "Post-Gorpcore Natural Aesthetic",
           "source": "TikTok",
           "signal_type": "social",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "theme_id": "water_sports_backpacking_equipment",
-      "display_name": "Water Sports & Backpacking Equipment",
-      "keywords": [
-        "Water Sports & Backpacking Equipment"
-      ],
-      "signal_count": 1,
-      "sources": [
-        "Market Reports"
-      ],
-      "source_types": [
-        "web"
-      ],
-      "evidence_urls": [],
-      "overlap_warning": false,
-      "overlap_note": "Single coherent theme.",
-      "member_signals": [
-        {
-          "keyword": "Water Sports & Backpacking Equipment",
-          "signal_name": "Water Sports & Backpacking Equipment",
-          "source": "Market Reports",
-          "signal_type": "web",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "theme_id": "swiss_outdoor_market_growth",
-      "display_name": "Swiss Outdoor Market Growth",
-      "keywords": [
-        "Swiss Outdoor Market Growth"
-      ],
-      "signal_count": 1,
-      "sources": [
-        "Market Reports"
-      ],
-      "source_types": [
-        "web"
-      ],
-      "evidence_urls": [],
-      "overlap_warning": false,
-      "overlap_note": "Single coherent theme.",
-      "member_signals": [
-        {
-          "keyword": "Swiss Outdoor Market Growth",
-          "signal_name": "Swiss Outdoor Market Growth",
-          "source": "Market Reports",
-          "signal_type": "web",
           "url": ""
         }
       ]

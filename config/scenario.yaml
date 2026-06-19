@@ -32,3 +32,13 @@ competitor_search_terms:
 cluster_similarity: 0.82
 min_corroboration: 0.35
 max_recommendations: 8
+
+bloom_discovery_queries:
+  - emerging outdoor trends Switzerland 2026
+  - rising DACH outdoor product categories
+  - new outdoor gear social media trend 2026
+max_bloom_picks: 5
+enrich_live_keywords:
+  - Trailrunning
+  - Klettersteig
+  - bikepacking

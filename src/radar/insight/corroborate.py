@@ -41,8 +41,13 @@ def gate_confidence(signals: list[SignalRow], base: Confidence = "medium") -> Co
     urls = [s.url for s in signals if s.url and s.url.startswith("http")]
     types = {s.signal_type for s in signals}
     unique_domains = _unique_domains(urls)
+    has_marketplace = "marketplace" in types
+    has_search_or_competitor = bool(types & {"search", "competitor"})
+    marketplace_boost = has_marketplace and has_search_or_competitor and len(types) >= 2
 
     if len(set(urls)) >= 3 and len(types) >= 2 and unique_domains >= 2:
+        return "high"
+    if marketplace_boost and len(set(urls)) >= 2:
         return "high"
     if len(set(urls)) >= 2 and len(types) >= 2:
         return "medium"
