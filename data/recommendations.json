@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026-06-19",
+  "tool": "Zenline Scout — process_trends.py",
+  "methodology": {
+    "signal_score": "0.45*CH_momentum + 0.35*CH_level + 0.20*US_momentum + transfer_bonus",
+    "velocity": "12-week mean vs prior 12 weeks",
+    "transfer_gap": "US velocity % minus CH velocity %",
+    "confidence": "high if CH weekly with 30+ non-zero weeks in last 52"
+  },
+  "recommendations": [
+    {
+      "rank": 1,
+      "opportunity": "Expand trail running shoe wall and summer trail apparel",
+      "keyword": "Trailrunning",
+      "first_observed_market": "CH",
+      "evidence_summary": "CH search 12w avg 57.83/100, velocity 112.2%. US search 12w avg 27.25/100, velocity 11.2%. US-CH velocity gap -101.0pp.",
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Trailrunning",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Trailrunning"
+      ],
+      "transferability": "Strong active CH search interest (12w avg 58/100). Suitable for Swiss outdoor retailers this season.",
+      "coverage_status": "partially_covered",
+      "recommended_action": "Merchandise dedicated trail running bay with gait-analysis service",
+      "range_tag": "core",
+      "confidence": "high",
+      "signal_score": 0.88,
+      "risks": "Seasonal spike may fade after summer; verify sell-through vs road running",
+      "scout_module": "Scout"
+    },
+    {
+      "rank": 2,
+      "opportunity": "Via ferrata harnesses, lanyards, helmets, and alpine access kit",
+      "keyword": "Klettersteig",
+      "first_observed_market": "CH",
+      "evidence_summary": "CH search 12w avg 28.25/100, velocity 346.1%. US search 12w avg 10.83/100, velocity 348.3%. US-CH velocity gap 2.2pp.",
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Klettersteig",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Klettersteig"
+      ],
+      "transferability": "Moderate CH search signal; validate with competitor scans before buy.",
+      "coverage_status": "unknown",
+      "recommended_action": "Bundle via ferrata starter sets with SAC partnership",
+      "range_tag": "experimental",
+      "confidence": "high",
+      "signal_score": 0.749,
+      "risks": "Highly seasonal; inventory timing critical",
+      "scout_module": "Scout"
+    },
+    {
+      "rank": 3,
+      "opportunity": "Bikepacking bags, ultralight camping crossover, and gravel-adjacent kit",
+      "keyword": "bikepacking",
+      "first_observed_market": "CH",
+      "evidence_summary": "CH search 12w avg 61.25/100, velocity 40.8%. US search 12w avg 81.42/100, velocity 44.3%. US-CH velocity gap 3.5pp.",
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=bikepacking",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=bikepacking"
+      ],
+      "transferability": "Strong active CH search interest (12w avg 61/100). Suitable for Swiss outdoor retailers this season.",
+      "coverage_status": "partially_covered",
+      "recommended_action": "Create bikepacking starter capsule (pack, tent, sleep system) in bike corners",
+      "range_tag": "core",
+      "confidence": "high",
+      "signal_score": 0.717,
+      "risks": "Niche audience; needs staff education to avoid confusion with touring",
+      "scout_module": "Scout"
+    },
+    {
+      "rank": 4,
+      "opportunity": "Ski touring boots, bindings, skins, and safety equipment",
+      "keyword": "Skitour",
+      "first_observed_market": "US",
+      "evidence_summary": "CH search 12w avg 11.92/100, velocity -61.6%. US search 12w avg 0.67/100, velocity 66.7%. US-CH velocity gap 128.3pp.",
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Skitour",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Skitour"
+      ],
+      "transferability": "US search momentum leads CH by 128pp — early transfer candidate if assortment gap confirmed at Transa/Ochsner.",
+      "coverage_status": "unknown",
+      "recommended_action": "Monitor only until Q4 pre-season",
+      "range_tag": "experimental",
+      "confidence": "high",
+      "signal_score": 0.492,
+      "risks": "Off-season in June; signal is winter-forward",
+      "scout_module": "Scout"
+    },
+    {
+      "rank": 5,
+      "opportunity": "Premium synthetic insulation (Alpha Direct) in ultralight mid-layers",
+      "keyword": "Alpha Direct",
+      "first_observed_market": "US",
+      "evidence_summary": "CH search 12w avg 0.92/100, velocity -87.2%. US search 12w avg 71.25/100, velocity 36.6%. US-CH velocity gap 123.8pp.",
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Alpha%20Direct",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Alpha%20Direct"
+      ],
+      "transferability": "US search momentum leads CH by 124pp — early transfer candidate if assortment gap confirmed at Transa/Ochsner.",
+      "coverage_status": "unknown",
+      "recommended_action": "Test 3–5 Alpha Direct mid-layers if supplier access confirmed",
+      "range_tag": "experimental",
+      "confidence": "low",
+      "signal_score": 0.395,
+      "risks": "Very low CH search volume; trend may stay enthusiast-only",
+      "scout_module": "Scout"
+    },
+    {
+      "rank": 6,
+      "opportunity": "Recycled down jackets and sleeping bags for sustainability positioning",
+      "keyword": "recycled down",
+      "first_observed_market": "US",
+      "evidence_summary": "US search 12w avg 58.42/100, velocity 157.7%.",
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=recycled%20down",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=recycled%20down"
+      ],
+      "transferability": "Low-volume CH signal; interest detected in Zurich (100). Needs competitor assortment corroboration.",
+      "coverage_status": "unknown",
+      "recommended_action": "Tag and filter recycled-down SKUs; staff sustainability storytelling",
+      "range_tag": "monitor",
+      "confidence": "low",
+      "signal_score": 0.2,
+      "risks": "Low search volume in CH; rely on assortment audit not search alone",
+      "scout_module": "Scout"
+    },
+    {
+      "rank": 7,
+      "opportunity": "Sub-kilo sleep systems for fast alpine and bikepacking customers",
+      "keyword": "ultralight sleeping bag",
+      "first_observed_market": "US",
+      "evidence_summary": "US search 12w avg 64.0/100, velocity 170.4%.",
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=ultralight%20sleeping%20bag",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=ultralight%20sleeping%20bag"
+      ],
+      "transferability": "Low-volume CH signal; interest detected in Vaud (100), Zurich (100). Needs competitor assortment corroboration.",
+      "coverage_status": "unknown",
+      "recommended_action": "Curate ultralight sleep system bay linked to fast-hiking narrative",
+      "range_tag": "monitor",
+      "confidence": "low",
+      "signal_score": 0.2,
+      "risks": "Sparse CH time series; corroborate with product sales if available",
+      "scout_module": "Scout"
+    }
+  ],
+  "agent_synthesis": [
+    {
+      "rank": 1,
+      "opportunity": "Trail Running Footwear (multifunctional)",
+      "keyword": "Trail Running Footwear",
+      "first_observed_market": "CH",
+      "evidence_summary": "Confirmed across all 3 agents — YouTube video surge + social lifestyle signal + hard retail sales data",
+      "evidence_urls": [],
+      "transferability": "Swiss/DACH focused. Stage: Market Proof. Window: Immediate.",
+      "coverage_status": "unknown",
+      "recommended_action": "Stock deep now across multifunctional trail/road hybrid models",
+      "range_tag": "core",
+      "confidence": "high",
+      "signal_score": 0.88,
+      "risks": "Qualitative agent signal — corroborate with search trends and retailer assortment.",
+      "scout_module": "Scout + Agent Synthesis",
+      "synthesis_label": "Rank 1"
+    },
+    {
+      "rank": 2,
+      "opportunity": "Via Ferrata Starter Kits",
+      "keyword": "Via Ferrata Starter Kits",
+      "first_observed_market": "CH",
+      "evidence_summary": "YouTube tutorial growth + alpine tourism record numbers + clear assortment gap at Swiss retailers",
+      "evidence_urls": [],
+      "transferability": "Swiss/DACH focused. Stage: Early Adoption. Window: 6–12 months.",
+      "coverage_status": "unknown",
+      "recommended_action": "Build complete accessible kit — first mover advantage available",
+      "range_tag": "experimental",
+      "confidence": "medium",
+      "signal_score": 0.72,
+      "risks": "Qualitative agent signal — corroborate with search trends and retailer assortment.",
+      "scout_module": "Scout + Agent Synthesis",
+      "synthesis_label": "Rank 2"
+    },
+    {
+      "rank": 3,
+      "opportunity": "Merino / Natural Fiber Base Layers",
+      "keyword": "Merino / Natural Fiber Base Layers",
+      "first_observed_market": "CH",
+      "evidence_summary": "Consumer research behavior confirmed in market data + post-gorpcore social aesthetic pointing toward natural materials + Swiss brand activity",
+      "evidence_urls": [],
+      "transferability": "Swiss/DACH focused. Stage: Growing Signal. Window: 6–12 months.",
+      "coverage_status": "unknown",
+      "recommended_action": "Curated assortment with strong material storytelling",
+      "range_tag": "experimental",
+      "confidence": "medium",
+      "signal_score": 0.72,
+      "risks": "Qualitative agent signal — corroborate with search trends and retailer assortment.",
+      "scout_module": "Scout + Agent Synthesis",
+      "synthesis_label": "Rank 3"
+    },
+    {
+      "rank": 4,
+      "opportunity": "Quiet Outdoors Aesthetic (post-gorpcore)",
+      "keyword": "Quiet Outdoors Aesthetic",
+      "first_observed_market": "CH",
+      "evidence_summary": "TikTok gorpcore death signal + Quiet Outdoors terminology emerging + celebrity adoption of muted technical gear",
+      "evidence_urls": [],
+      "transferability": "Swiss/DACH focused. Stage: Weak Signal. Window: 12–18 months.",
+      "coverage_status": "unknown",
+      "recommended_action": "Pilot lifestyle merchandising — watch 6 months for confirmation",
+      "range_tag": "monitor",
+      "confidence": "low",
+      "signal_score": 0.45,
+      "risks": "Qualitative agent signal — corroborate with search trends and retailer assortment.",
+      "scout_module": "Scout + Agent Synthesis",
+      "synthesis_label": "Rank 4"
+    },
+    {
+      "rank": 5,
+      "opportunity": "Packrafting",
+      "keyword": "Packrafting",
+      "first_observed_market": "CH",
+      "evidence_summary": "Komoot activity data + YouTube trip content + water sports growth in OIA report — niche but no Swiss retailer owns it yet",
+      "evidence_urls": [],
+      "transferability": "Swiss/DACH focused. Stage: Weak Signal. Window: 12–18 months.",
+      "coverage_status": "unknown",
+      "recommended_action": "2–3 SKU pilot — first Swiss specialty retailer to own this category wins",
+      "range_tag": "monitor",
+      "confidence": "low",
+      "signal_score": 0.45,
+      "risks": "Qualitative agent signal — corroborate with search trends and retailer assortment.",
+      "scout_module": "Scout + Agent Synthesis",
+      "synthesis_label": "Dark Horse"
+    }
+  ],
+  "combined_top": [
+    {
+      "source": "Google Trends",
+      "opportunity": "Expand trail running shoe wall and summer trail apparel",
+      "keyword": "Trailrunning",
+      "signal_score": 0.88,
+      "confidence": "high",
+      "recommended_action": "Merchandise dedicated trail running bay with gait-analysis service",
+      "combined_rank": 1
+    },
+    {
+      "source": "Agent Synthesis",
+      "opportunity": "Trail Running Footwear (multifunctional)",
+      "keyword": "Trail Running Footwear",
+      "signal_score": 0.88,
+      "confidence": "high",
+      "recommended_action": "Stock deep now across multifunctional trail/road hybrid models",
+      "combined_rank": 2
+    },
+    {
+      "source": "Google Trends",
+      "opportunity": "Via ferrata harnesses, lanyards, helmets, and alpine access kit",
+      "keyword": "Klettersteig",
+      "signal_score": 0.749,
+      "confidence": "high",
+      "recommended_action": "Bundle via ferrata starter sets with SAC partnership",
+      "combined_rank": 3
+    },
+    {
+      "source": "Agent Synthesis",
+      "opportunity": "Via Ferrata Starter Kits",
+      "keyword": "Via Ferrata Starter Kits",
+      "signal_score": 0.72,
+      "confidence": "medium",
+      "recommended_action": "Build complete accessible kit — first mover advantage available",
+      "combined_rank": 4
+    },
+    {
+      "source": "Agent Synthesis",
+      "opportunity": "Merino / Natural Fiber Base Layers",
+      "keyword": "Merino / Natural Fiber Base Layers",
+      "signal_score": 0.72,
+      "confidence": "medium",
+      "recommended_action": "Curated assortment with strong material storytelling",
+      "combined_rank": 5
+    },
+    {
+      "source": "Google Trends",
+      "opportunity": "Bikepacking bags, ultralight camping crossover, and gravel-adjacent kit",
+      "keyword": "bikepacking",
+      "signal_score": 0.717,
+      "confidence": "high",
+      "recommended_action": "Create bikepacking starter capsule (pack, tent, sleep system) in bike corners",
+      "combined_rank": 6
+    },
+    {
+      "source": "Google Trends",
+      "opportunity": "Ski touring boots, bindings, skins, and safety equipment",
+      "keyword": "Skitour",
+      "signal_score": 0.492,
+      "confidence": "high",
+      "recommended_action": "Monitor only until Q4 pre-season",
+      "combined_rank": 7
+    },
+    {
+      "source": "Agent Synthesis",
+      "opportunity": "Quiet Outdoors Aesthetic (post-gorpcore)",
+      "keyword": "Quiet Outdoors Aesthetic",
+      "signal_score": 0.45,
+      "confidence": "low",
+      "recommended_action": "Pilot lifestyle merchandising — watch 6 months for confirmation",
+      "combined_rank": 8
+    }
+  ]
+}

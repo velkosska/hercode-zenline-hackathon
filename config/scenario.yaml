@@ -1,0 +1,34 @@
+market_focus: CH
+region_group: DACH
+category: outdoor_apparel_gear
+
+seed_keywords:
+  - Trailrunning
+  - bikepacking
+  - Klettersteig
+  - Skitour
+  - Alpha Direct
+  - recycled down
+  - ultralight sleeping bag
+
+source_markets:
+  - CH
+  - US
+
+competitors:
+  - transa.ch
+  - ochsnersport.ch
+  - decathlon.ch
+
+competitor_search_terms:
+  Trailrunning: trail running schuhe
+  bikepacking: bikepacking
+  Klettersteig: klettersteig via ferrata
+  Skitour: skitour tourenski
+  "Alpha Direct": alpha direct isolierung
+  "recycled down": recycled down daunen
+  "ultralight sleeping bag": ultraleicht schlafsack
+
+cluster_similarity: 0.82
+min_corroboration: 0.35
+max_recommendations: 8

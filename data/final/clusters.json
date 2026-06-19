@@ -1,0 +1,1073 @@
+{
+  "clusters": [
+    {
+      "theme_id": "trail_running",
+      "display_name": "Trail & Running Footwear",
+      "keywords": [
+        "Trail & Running Footwear",
+        "Trail Running Footwear",
+        "Trail Running in the Alps",
+        "Trailrunning",
+        "running"
+      ],
+      "signal_count": 13,
+      "sources": [
+        "Agent Synthesis",
+        "Google Trends",
+        "Google Trends (google news)",
+        "Google Trends (google search)",
+        "Google Trends (google shopping)",
+        "Market Reports",
+        "YouTube",
+        "swisspo",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search",
+        "social",
+        "web"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Trailrunning",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Trailrunning",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=running",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=running",
+        "https://www.transa.ch/de/b/trailrunning/",
+        "https://swisspo.ch/de/erfolgreicher-winter-und-chancen-im-sommer-sportartikel-branche-beweist-stabilitaet-und-anpassungsfaehigkeit/"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Trailrunning",
+          "signal_name": "Trail running search momentum",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Trailrunning"
+        },
+        {
+          "keyword": "Trailrunning",
+          "signal_name": "Trail running search momentum",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Trailrunning"
+        },
+        {
+          "keyword": "running",
+          "signal_name": "running CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=running"
+        },
+        {
+          "keyword": "running",
+          "signal_name": "running CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=running"
+        },
+        {
+          "keyword": "running",
+          "signal_name": "running CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=running"
+        },
+        {
+          "keyword": "running",
+          "signal_name": "running US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=running"
+        },
+        {
+          "keyword": "running",
+          "signal_name": "running US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=running"
+        },
+        {
+          "keyword": "running",
+          "signal_name": "running US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=running"
+        },
+        {
+          "keyword": "Trail Running in the Alps",
+          "signal_name": "Trail Running in the Alps",
+          "source": "YouTube",
+          "signal_type": "social",
+          "url": ""
+        },
+        {
+          "keyword": "Trail & Running Footwear",
+          "signal_name": "Trail & Running Footwear",
+          "source": "Market Reports",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "Trail Running Footwear",
+          "signal_name": "Trail Running Footwear (multifunctional)",
+          "source": "Agent Synthesis",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "running",
+          "signal_name": "CH competitor / trade signal: running",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/b/trailrunning/"
+        },
+        {
+          "keyword": "running",
+          "signal_name": "CH competitor / trade signal: running",
+          "source": "swisspo",
+          "signal_type": "competitor",
+          "url": "https://swisspo.ch/de/erfolgreicher-winter-und-chancen-im-sommer-sportartikel-branche-beweist-stabilitaet-und-anpassungsfaehigkeit/"
+        }
+      ]
+    },
+    {
+      "theme_id": "via_ferrata",
+      "display_name": "Klettersteig",
+      "keywords": [
+        "Klettersteig",
+        "Via Ferrata",
+        "Via Ferrata Starter Kits",
+        "Vía ferrata"
+      ],
+      "signal_count": 12,
+      "sources": [
+        "Agent Synthesis",
+        "Google Trends",
+        "Google Trends (google news)",
+        "Google Trends (google search)",
+        "Google Trends (google shopping)",
+        "YouTube",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search",
+        "social",
+        "web"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Klettersteig",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Klettersteig",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Vía%20ferrata",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Vía%20ferrata",
+        "https://www.transa.ch/de/p/salomon-gravel-skin-4-set-357211-002/",
+        "https://www.transa.ch/de/b/klettersteig/"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Klettersteig",
+          "signal_name": "Via ferrata (Klettersteig) seasonal demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Klettersteig"
+        },
+        {
+          "keyword": "Klettersteig",
+          "signal_name": "Via ferrata (Klettersteig) seasonal demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Klettersteig"
+        },
+        {
+          "keyword": "Vía ferrata",
+          "signal_name": "Vía ferrata CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Vía%20ferrata"
+        },
+        {
+          "keyword": "Vía ferrata",
+          "signal_name": "Vía ferrata CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Vía%20ferrata"
+        },
+        {
+          "keyword": "Vía ferrata",
+          "signal_name": "Vía ferrata CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Vía%20ferrata"
+        },
+        {
+          "keyword": "Vía ferrata",
+          "signal_name": "Vía ferrata US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Vía%20ferrata"
+        },
+        {
+          "keyword": "Vía ferrata",
+          "signal_name": "Vía ferrata US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Vía%20ferrata"
+        },
+        {
+          "keyword": "Vía ferrata",
+          "signal_name": "Vía ferrata US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Vía%20ferrata"
+        },
+        {
+          "keyword": "Via Ferrata",
+          "signal_name": "Via Ferrata",
+          "source": "YouTube",
+          "signal_type": "social",
+          "url": ""
+        },
+        {
+          "keyword": "Via Ferrata Starter Kits",
+          "signal_name": "Via Ferrata Starter Kits",
+          "source": "Agent Synthesis",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "Via Ferrata Starter Kits",
+          "signal_name": "CH competitor / trade signal: Via Ferrata Starter Kits",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/p/salomon-gravel-skin-4-set-357211-002/"
+        },
+        {
+          "keyword": "Klettersteig",
+          "signal_name": "CH competitor / trade signal: Klettersteig",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/b/klettersteig/"
+        }
+      ]
+    },
+    {
+      "theme_id": "escalada",
+      "display_name": "Escalada",
+      "keywords": [
+        "Escalada",
+        "Salud"
+      ],
+      "signal_count": 12,
+      "sources": [
+        "Google Trends (google news)",
+        "Google Trends (google search)",
+        "Google Trends (google shopping)"
+      ],
+      "source_types": [
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Escalada",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Salud",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Escalada",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Salud"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Escalada",
+          "signal_name": "Escalada CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Escalada"
+        },
+        {
+          "keyword": "Salud",
+          "signal_name": "Salud CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Salud"
+        },
+        {
+          "keyword": "Escalada",
+          "signal_name": "Escalada CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Escalada"
+        },
+        {
+          "keyword": "Salud",
+          "signal_name": "Salud CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Salud"
+        },
+        {
+          "keyword": "Escalada",
+          "signal_name": "Escalada CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Escalada"
+        },
+        {
+          "keyword": "Salud",
+          "signal_name": "Salud CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Salud"
+        },
+        {
+          "keyword": "Escalada",
+          "signal_name": "Escalada US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Escalada"
+        },
+        {
+          "keyword": "Salud",
+          "signal_name": "Salud US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Salud"
+        },
+        {
+          "keyword": "Escalada",
+          "signal_name": "Escalada US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Escalada"
+        },
+        {
+          "keyword": "Salud",
+          "signal_name": "Salud US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Salud"
+        },
+        {
+          "keyword": "Escalada",
+          "signal_name": "Escalada US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Escalada"
+        },
+        {
+          "keyword": "Salud",
+          "signal_name": "Salud US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Salud"
+        }
+      ]
+    },
+    {
+      "theme_id": "bikepacking",
+      "display_name": "Packrafting",
+      "keywords": [
+        "Packrafting",
+        "Ultralight Backpacking",
+        "bikepacking"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "Agent Synthesis",
+        "Google Trends",
+        "YouTube",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search",
+        "social",
+        "web"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=bikepacking",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=bikepacking",
+        "https://www.transa.ch/de/b/bikepacking/"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "bikepacking",
+          "signal_name": "Bikepacking interest",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=bikepacking"
+        },
+        {
+          "keyword": "bikepacking",
+          "signal_name": "Bikepacking interest",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=bikepacking"
+        },
+        {
+          "keyword": "Packrafting",
+          "signal_name": "Packrafting",
+          "source": "YouTube",
+          "signal_type": "social",
+          "url": ""
+        },
+        {
+          "keyword": "Ultralight Backpacking",
+          "signal_name": "Ultralight Backpacking",
+          "source": "YouTube",
+          "signal_type": "social",
+          "url": ""
+        },
+        {
+          "keyword": "Packrafting",
+          "signal_name": "Packrafting",
+          "source": "Agent Synthesis",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "bikepacking",
+          "signal_name": "CH competitor / trade signal: bikepacking",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/b/bikepacking/"
+        }
+      ]
+    },
+    {
+      "theme_id": "senderismo",
+      "display_name": "Senderismo",
+      "keywords": [
+        "Senderismo"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "Google Trends (google news)",
+        "Google Trends (google search)",
+        "Google Trends (google shopping)"
+      ],
+      "source_types": [
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Senderismo",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Senderismo"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Senderismo CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Senderismo"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Senderismo CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Senderismo"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Senderismo CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Senderismo"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Senderismo US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Senderismo"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Senderismo US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Senderismo"
+        },
+        {
+          "keyword": "Senderismo",
+          "signal_name": "Senderismo US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Senderismo"
+        }
+      ]
+    },
+    {
+      "theme_id": "montaismo",
+      "display_name": "Montañismo",
+      "keywords": [
+        "Montañismo"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "Google Trends (google news)",
+        "Google Trends (google search)",
+        "Google Trends (google shopping)"
+      ],
+      "source_types": [
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Montañismo",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Montañismo"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Montañismo",
+          "signal_name": "Montañismo CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Montañismo"
+        },
+        {
+          "keyword": "Montañismo",
+          "signal_name": "Montañismo CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Montañismo"
+        },
+        {
+          "keyword": "Montañismo",
+          "signal_name": "Montañismo CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Montañismo"
+        },
+        {
+          "keyword": "Montañismo",
+          "signal_name": "Montañismo US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Montañismo"
+        },
+        {
+          "keyword": "Montañismo",
+          "signal_name": "Montañismo US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Montañismo"
+        },
+        {
+          "keyword": "Montañismo",
+          "signal_name": "Montañismo US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Montañismo"
+        }
+      ]
+    },
+    {
+      "theme_id": "esqu",
+      "display_name": "Esquí",
+      "keywords": [
+        "Esquí"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "Google Trends (google news)",
+        "Google Trends (google search)",
+        "Google Trends (google shopping)"
+      ],
+      "source_types": [
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
+        },
+        {
+          "keyword": "Esquí",
+          "signal_name": "Esquí US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Esquí"
+        }
+      ]
+    },
+    {
+      "theme_id": "ciclismo",
+      "display_name": "Ciclismo",
+      "keywords": [
+        "Ciclismo"
+      ],
+      "signal_count": 6,
+      "sources": [
+        "Google Trends (google news)",
+        "Google Trends (google search)",
+        "Google Trends (google shopping)"
+      ],
+      "source_types": [
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo CH search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo CH search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo CH search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo US search interest (google news)",
+          "source": "Google Trends (google news)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo US search interest (google search)",
+          "source": "Google Trends (google search)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
+        },
+        {
+          "keyword": "Ciclismo",
+          "signal_name": "Ciclismo US search interest (google shopping)",
+          "source": "Google Trends (google shopping)",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Ciclismo"
+        }
+      ]
+    },
+    {
+      "theme_id": "skitour",
+      "display_name": "Skitour",
+      "keywords": [
+        "Skitour"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "Google Trends",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Skitour",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Skitour",
+        "https://www.transa.ch/de/b/skitour/"
+      ],
+      "overlap_warning": false,
+      "overlap_note": "Single coherent theme.",
+      "member_signals": [
+        {
+          "keyword": "Skitour",
+          "signal_name": "Ski touring (Skitour) demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Skitour"
+        },
+        {
+          "keyword": "Skitour",
+          "signal_name": "Ski touring (Skitour) demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Skitour"
+        },
+        {
+          "keyword": "Skitour",
+          "signal_name": "CH competitor / trade signal: Skitour",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/b/skitour/"
+        }
+      ]
+    },
+    {
+      "theme_id": "merino_base",
+      "display_name": "Merino / Natural Fiber Base Layers",
+      "keywords": [
+        "Merino / Natural Fiber Base Layers",
+        "Merino Wool & Natural Fibers"
+      ],
+      "signal_count": 3,
+      "sources": [
+        "Agent Synthesis",
+        "Market Reports",
+        "transa.ch"
+      ],
+      "source_types": [
+        "competitor",
+        "web"
+      ],
+      "evidence_urls": [
+        "https://www.transa.ch/de/blog/nachhaltigkeit/pfas-faq/"
+      ],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Merino Wool & Natural Fibers",
+          "signal_name": "Merino Wool & Natural Fibers",
+          "source": "Market Reports",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "Merino / Natural Fiber Base Layers",
+          "signal_name": "Merino / Natural Fiber Base Layers",
+          "source": "Agent Synthesis",
+          "signal_type": "web",
+          "url": ""
+        },
+        {
+          "keyword": "Merino Wool & Natural Fibers",
+          "signal_name": "CH competitor / trade signal: Merino Wool & Natural Fibers",
+          "source": "transa.ch",
+          "signal_type": "competitor",
+          "url": "https://www.transa.ch/de/blog/nachhaltigkeit/pfas-faq/"
+        }
+      ]
+    },
+    {
+      "theme_id": "alpha_direct",
+      "display_name": "Alpha Direct",
+      "keywords": [
+        "Alpha Direct"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "Google Trends"
+      ],
+      "source_types": [
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Alpha%20Direct",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Alpha%20Direct"
+      ],
+      "overlap_warning": false,
+      "overlap_note": "Single coherent theme.",
+      "member_signals": [
+        {
+          "keyword": "Alpha Direct",
+          "signal_name": "Alpha Direct insulation material curiosity",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=Alpha%20Direct"
+        },
+        {
+          "keyword": "Alpha Direct",
+          "signal_name": "Alpha Direct insulation material curiosity",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=Alpha%20Direct"
+        }
+      ]
+    },
+    {
+      "theme_id": "recycled_down",
+      "display_name": "recycled down",
+      "keywords": [
+        "recycled down"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "Google Trends"
+      ],
+      "source_types": [
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=recycled%20down",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=recycled%20down"
+      ],
+      "overlap_warning": false,
+      "overlap_note": "Single coherent theme.",
+      "member_signals": [
+        {
+          "keyword": "recycled down",
+          "signal_name": "Recycled down sustainability interest",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=recycled%20down"
+        },
+        {
+          "keyword": "recycled down",
+          "signal_name": "Recycled down sustainability interest",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=recycled%20down"
+        }
+      ]
+    },
+    {
+      "theme_id": "ultralight_sleep",
+      "display_name": "ultralight sleeping bag",
+      "keywords": [
+        "ultralight sleeping bag"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "Google Trends"
+      ],
+      "source_types": [
+        "search"
+      ],
+      "evidence_urls": [
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=ultralight%20sleeping%20bag",
+        "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=ultralight%20sleeping%20bag"
+      ],
+      "overlap_warning": false,
+      "overlap_note": "Single coherent theme.",
+      "member_signals": [
+        {
+          "keyword": "ultralight sleeping bag",
+          "signal_name": "Ultralight sleeping bag demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=CH&q=ultralight%20sleeping%20bag"
+        },
+        {
+          "keyword": "ultralight sleeping bag",
+          "signal_name": "Ultralight sleeping bag demand",
+          "source": "Google Trends",
+          "signal_type": "search",
+          "url": "https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=ultralight%20sleeping%20bag"
+        }
+      ]
+    },
+    {
+      "theme_id": "gorpcore_quiet_outdoors_evolution",
+      "display_name": "Gorpcore → Quiet Outdoors Evolution",
+      "keywords": [
+        "Gorpcore → Quiet Outdoors Evolution",
+        "Quiet Outdoors Aesthetic"
+      ],
+      "signal_count": 2,
+      "sources": [
+        "Agent Synthesis",
+        "TikTok"
+      ],
+      "source_types": [
+        "social",
+        "web"
+      ],
+      "evidence_urls": [],
+      "overlap_warning": true,
+      "overlap_note": "Multiple related keywords detected — consolidate buying decision to avoid cannibalization.",
+      "member_signals": [
+        {
+          "keyword": "Gorpcore → Quiet Outdoors Evolution",
+          "signal_name": "Gorpcore → Quiet Outdoors Evolution",
+          "source": "TikTok",
+          "signal_type": "social",
+          "url": ""
+        },
+        {
+          "keyword": "Quiet Outdoors Aesthetic",
+          "signal_name": "Quiet Outdoors Aesthetic (post-gorpcore)",
+          "source": "Agent Synthesis",
+          "signal_type": "web",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "theme_id": "arcteryx_salomon_as_fashion_objects",
+      "display_name": "Arc'teryx & Salomon as Fashion Objects",
+      "keywords": [
+        "Arc'teryx & Salomon as Fashion Objects"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "TikTok"
+      ],
+      "source_types": [
+        "social"
+      ],
+      "evidence_urls": [],
+      "overlap_warning": false,
+      "overlap_note": "Single coherent theme.",
+      "member_signals": [
+        {
+          "keyword": "Arc'teryx & Salomon as Fashion Objects",
+          "signal_name": "Arc'teryx & Salomon as Fashion Objects",
+          "source": "TikTok",
+          "signal_type": "social",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "theme_id": "swiss_alps_as_tiktok_travel_backdrop",
+      "display_name": "Swiss Alps as TikTok Travel Backdrop",
+      "keywords": [
+        "Swiss Alps as TikTok Travel Backdrop"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "TikTok"
+      ],
+      "source_types": [
+        "social"
+      ],
+      "evidence_urls": [],
+      "overlap_warning": false,
+      "overlap_note": "Single coherent theme.",
+      "member_signals": [
+        {
+          "keyword": "Swiss Alps as TikTok Travel Backdrop",
+          "signal_name": "Swiss Alps as TikTok Travel Backdrop",
+          "source": "TikTok",
+          "signal_type": "social",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "theme_id": "postgorpcore_natural_aesthetic",
+      "display_name": "Post-Gorpcore Natural Aesthetic",
+      "keywords": [
+        "Post-Gorpcore Natural Aesthetic"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "TikTok"
+      ],
+      "source_types": [
+        "social"
+      ],
+      "evidence_urls": [],
+      "overlap_warning": false,
+      "overlap_note": "Single coherent theme.",
+      "member_signals": [
+        {
+          "keyword": "Post-Gorpcore Natural Aesthetic",
+          "signal_name": "Post-Gorpcore Natural Aesthetic",
+          "source": "TikTok",
+          "signal_type": "social",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "theme_id": "water_sports_backpacking_equipment",
+      "display_name": "Water Sports & Backpacking Equipment",
+      "keywords": [
+        "Water Sports & Backpacking Equipment"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "Market Reports"
+      ],
+      "source_types": [
+        "web"
+      ],
+      "evidence_urls": [],
+      "overlap_warning": false,
+      "overlap_note": "Single coherent theme.",
+      "member_signals": [
+        {
+          "keyword": "Water Sports & Backpacking Equipment",
+          "signal_name": "Water Sports & Backpacking Equipment",
+          "source": "Market Reports",
+          "signal_type": "web",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "theme_id": "swiss_outdoor_market_growth",
+      "display_name": "Swiss Outdoor Market Growth",
+      "keywords": [
+        "Swiss Outdoor Market Growth"
+      ],
+      "signal_count": 1,
+      "sources": [
+        "Market Reports"
+      ],
+      "source_types": [
+        "web"
+      ],
+      "evidence_urls": [],
+      "overlap_warning": false,
+      "overlap_note": "Single coherent theme.",
+      "member_signals": [
+        {
+          "keyword": "Swiss Outdoor Market Growth",
+          "signal_name": "Swiss Outdoor Market Growth",
+          "source": "Market Reports",
+          "signal_type": "web",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-19"
+}

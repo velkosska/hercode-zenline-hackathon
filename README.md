@@ -2,6 +2,22 @@
 
 Build the retail radar that spots the next outdoor opportunity before it becomes obvious.
 
+## Zenline Scout — Quickstart
+
+This fork implements **Zenline Scout**: a full assortment-intelligence pipeline with Streamlit dashboard and FastAPI.
+
+```bash
+cd hercode-zenline-hackathon
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+make all          # process + enrich → data/final/
+make dashboard    # Scout / Evidence / Overlap Guard / Range Architect
+```
+
+Optional: copy `.env.example` to `.env` and set `TAVILY_API_KEY` for live competitor enrichment. The demo works offline using the committed `data/final/` snapshot.
+
+See [`SUBMISSION.md`](SUBMISSION.md) for ranked opportunities, evidence trail, and architecture.
+
 ## Challenge
 
 Retail teams are flooded with weak signals: TikTok clips, search spikes, niche communities, new materials, marketplace bestsellers, competitor drops, weather shifts, and regional lifestyle changes. The hard part is not finding more data. It is turning noisy signals into one clear answer: what should a retailer do next?
