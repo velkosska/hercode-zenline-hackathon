@@ -26,7 +26,7 @@ Include exact setup and run commands.
 
 ## Inputs
 
-Describe the inputs your system uses.
+Describe the inputs your system uses. The list below is a set of examples, not mandatory fields; keep, remove, or replace them with the inputs that actually apply to your solution.
 
 - Market:
 - Category:
