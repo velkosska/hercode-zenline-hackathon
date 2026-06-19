@@ -7,14 +7,19 @@ Complete this file in your fork before submitting.
 - Team name: *(update before final submission)*
 - Team members: *(update before final submission)*
 - GitHub fork URL: *(update before final submission)*
-- Demo URL, if any: `streamlit run dashboard/app.py` (local) or FastAPI at `http://localhost:8000/docs`
+- Demo URL, if any:
+  - **ZenScout (chat):** `http://localhost:3000` — `make api` + `make web`
+  - **Analyst dashboard:** `http://localhost:8501` — `make dashboard`
+  - **API docs:** `http://localhost:8000/docs`
 - Video walkthrough URL, if any: *(optional)*
 
 ## Summary
 
-**Zenline Scout** is a reusable assortment-intelligence pipeline for Swiss outdoor retail. It detects emerging product opportunities from Google Trends, agent synthesis, and competitor signals; enriches evidence with Transa/Ochsner/Decathlon URLs via **Tavily** (news, marketplace, discovery); applies a **corroboration gate** (2+ URLs, 2+ source types); surfaces **Scout Bloom** picks for trends not in the seed list; and clusters overlapping themes via **Overlap Guard** so buyers get one decision per trend family.
+**Zenline Scout** is a reusable assortment-intelligence pipeline for Swiss outdoor retail. **ZenScout** is the public Next.js chat front-end: three intents (latest trends, crosscheck idea, ROI) plus a ChatGPT-style prompt box, backed by a combined **Claude + Tavily** agent via `POST /chat`.
 
-The Streamlit dashboard maps to Zenline modules: **Scout** (ranked opportunities + Bloom section), **Evidence** (clickable sources grouped by Zenline bucket), **Overlap Guard** (cannibalization warnings), and **Range Architect** (core / experimental / monitor actions).
+The pipeline detects opportunities from Google Trends, agent synthesis, and competitor signals; enriches via Tavily; surfaces **Scout Bloom** picks; and clusters themes via **Overlap Guard**.
+
+The Streamlit dashboard maps to Zenline modules: **Scout**, **Evidence**, **Overlap Guard**, and **Range Architect**.
 
 ## How To Run
 
@@ -27,8 +32,9 @@ pip install -r requirements.txt
 # Pipeline works offline using committed data/final/ snapshot + seed URLs
 
 make all              # process trends → enrich → data/final/
-make dashboard        # Streamlit UI (reads data/final/, falls back to data/)
 make api              # FastAPI at http://localhost:8000
+make web-install && make web   # ZenScout at http://localhost:3000
+make dashboard        # Streamlit analyst UI
 ```
 
 Single commands:
@@ -45,7 +51,7 @@ API:
 - `GET /health` — status
 - `GET /results` — latest `recommendations.json`
 - `GET /signals` — enriched signals CSV as JSON
-- `POST /run` — re-run full pipeline (requires local raw data in `trends_raw/`)
+- `POST /chat` — ZenScout live agent (Claude + Tavily); modes: `trends`, `crosscheck`, `roi`, `freeform`
 
 ## Inputs
 

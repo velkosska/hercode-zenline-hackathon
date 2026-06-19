@@ -16,6 +16,10 @@ def get_claude_api_key() -> str:
     )
 
 
+def get_claude_model() -> str:
+    return os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6").strip() or "claude-sonnet-4-6"
+
+
 def _parse_json_list(text: str) -> list[dict[str, Any]]:
     text = text.strip()
     if text.startswith("```"):
@@ -83,7 +87,7 @@ Only propose trends with evidence in the snippets or agent rows above."""
     try:
         client = Anthropic(api_key=api_key)
         message = client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model=get_claude_model(),
             max_tokens=1200,
             messages=[{"role": "user", "content": prompt}],
         )

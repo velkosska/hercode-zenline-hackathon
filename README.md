@@ -4,17 +4,27 @@ Build the retail radar that spots the next outdoor opportunity before it becomes
 
 ## Zenline Scout — Quickstart
 
-This fork implements **Zenline Scout**: a full assortment-intelligence pipeline with Streamlit dashboard and FastAPI.
+This fork implements **Zenline Scout** (pipeline + Streamlit) and **ZenScout** (Next.js chat UI with live Claude + Tavily agent).
 
 ```bash
 cd hercode-zenline-hackathon
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 make all          # process + enrich → data/final/
-make dashboard    # Scout / Evidence / Overlap Guard / Range Architect
+
+# Terminal 1 — API
+make api          # http://localhost:8000
+
+# Terminal 2 — ZenScout web UI
+make web-install  # first time only
+cp zenscout/.env.local.example zenscout/.env.local
+make web          # http://localhost:3000
+
+# Optional analyst dashboard
+make dashboard    # Streamlit http://localhost:8501
 ```
 
-Optional: copy `.env.example` to `.env` and set `TAVILY_API_KEY` (competitor search) and/or `CLAUDE_API_KEY` (future agent runs). The demo works offline using the committed `data/final/` snapshot.
+Optional: copy `.env.example` to `.env` and set `TAVILY_API_KEY` + `CLAUDE_API_KEY` for live chat and enrichment. Offline fallback uses committed `data/final/`.
 
 See [`SUBMISSION.md`](SUBMISSION.md) for ranked opportunities, evidence trail, and architecture.
 

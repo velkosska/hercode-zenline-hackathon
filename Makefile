@@ -1,4 +1,4 @@
-.PHONY: process enrich pipeline dashboard api all install
+.PHONY: process enrich pipeline dashboard api web web-install all install
 
 VENV = .venv/bin
 PYTHON = PYTHONPATH=. $(VENV)/python
@@ -20,6 +20,12 @@ dashboard:
 	$(PYTHON) -m streamlit run dashboard/app.py
 
 api:
-	$(VENV)/uvicorn src.radar.api.main:app --reload --port 8000
+	PYTHONPATH=. $(VENV)/uvicorn src.radar.api.main:app --reload --port 8000
+
+web-install:
+	cd zenscout && npm install
+
+web:
+	cd zenscout && npm run dev
 
 all: process pipeline
